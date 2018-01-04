@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\lynda\\Ex_Files_Android_Apps_RESTful_Upd\\Exercise Files\\Ch02\\02_02\\AsyncTask\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sl\\values-sl.xml",
+            "outputFile": "D:\\ar_android\\AsyncTask\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sl\\values-sl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\787d81cc7ef3d4eb95a8379fe6d61223\\res\\values-sl\\values-sl.xml",

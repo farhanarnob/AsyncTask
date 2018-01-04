@@ -1,17 +1,13 @@
 package com.example.android.restful;
 
-import android.content.Context;
-import android.os.AsyncTask;
+import android.os.Bundle;
 import android.support.v4.app.LoaderManager;
-import android.support.v4.content.AsyncTaskLoader;
 import android.support.v4.content.Loader;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity
-        implements LoaderManager.LoaderCallbacks<String> {
+public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<String> {
 
     public TextView output;
 
@@ -25,39 +21,29 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void runClickHandler(View view) {
-        getSupportLoaderManager().initLoader(0,null,this).startLoading();
+        getSupportLoaderManager().initLoader(0, null, this).forceLoad();
+
     }
 
     public void clearClickHandler(View view) {
         output.setText("");
     }
 
+
     @Override
     public Loader<String> onCreateLoader(int id, Bundle args) {
-//        output.append("Loader created");
+        output.append("AsyncTask will be loaded\n");
         return new MyAsyncTaskLoader(this);
     }
 
     @Override
     public void onLoadFinished(Loader<String> loader, String data) {
-//        output.append("Loader finished");
+        output.append(data + " is your data");
     }
+
 
     @Override
     public void onLoaderReset(Loader<String> loader) {
 
     }
-
-    public class MyAsyncTaskLoader extends AsyncTaskLoader<String>{
-
-        MyAsyncTaskLoader(Context context) {
-            super(context);
-        }
-
-        @Override
-        public String loadInBackground() {
-            return "load worked";
-        }
-    }
-
 }

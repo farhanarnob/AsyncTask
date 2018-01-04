@@ -13,14 +13,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.android.restful.Utilities.NetworkHelper;
 import com.example.android.restful.services.MyIntentService;
 
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<String> {
 
     private static final String JSON_URL = "http://localhost/nadiaservices/json/itemsfeed.php";
-
     public TextView output;
-
     BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -28,14 +27,18 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             output.append("\n" + message);
         }
     };
-
+    private boolean networkOk;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         output = (TextView) findViewById(R.id.output);
+
+        networkOk = NetworkHelper.hasNetworkAccess(this);
+        output.append("Network Okay: " + networkOk);
 
     }
 

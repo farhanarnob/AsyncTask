@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-24:12
 MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\787d81cc7ef3d4eb95a8379fe6d61223\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\72ab072df2f830274bd6e7732594f972\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\060bd026ec1aa10060e2997f1b874355\AndroidManifest.xml:17:1-25:12
@@ -13,25 +13,25 @@ MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\hp\.gradl
 MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.0.aar\444baa54897ee38f14c02a0a956dcc61\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.0.aar\4e724470928929c59fdf8312d3bbc0b4\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-compat:25.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\7f3368a0b1da36c7164099b43d786084\AndroidManifest.xml:17:1-27:12
-INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml
 		INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml
-		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-24:12
 		INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml
-		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-24:12
 		INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:5:5-22:19
 MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\787d81cc7ef3d4eb95a8379fe6d61223\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\787d81cc7ef3d4eb95a8379fe6d61223\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\72ab072df2f830274bd6e7732594f972\AndroidManifest.xml:22:5-20
@@ -75,11 +75,11 @@ ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:15:17-77
 	android:name
 		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:15:27-74
 service#com.example.android.restful.services.MyIntentService
-ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:19:9-20:39
+ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported
-		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:20:13-37
+		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:19:18-58
+		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:20:13-53
 uses-sdk
 INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml

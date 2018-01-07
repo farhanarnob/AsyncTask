@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.LoaderManager;
-import android.support.v4.content.Loader;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -16,9 +14,9 @@ import android.widget.TextView;
 import com.example.android.restful.Utilities.NetworkHelper;
 import com.example.android.restful.services.MyIntentService;
 
-public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<String> {
+public class MainActivity extends AppCompatActivity {
 
-    private static final String JSON_URL = "http://localhost/nadiaservices/json/itemsfeed.php";
+    private static final String JSON_URL = "https://reqres.in/api/unknown/2";
     public TextView output;
     BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
         @Override
@@ -48,32 +46,12 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         intent.setData(Uri.parse(JSON_URL));
 //        One thread will be used.
         startService(intent);
-        startService(intent);
-        startService(intent);
         LocalBroadcastManager.getInstance(this)
                 .registerReceiver(broadcastReceiver, new IntentFilter(MyIntentService.MY_SERVICE_MESSAGE));
     }
 
     public void clearClickHandler(View view) {
         output.setText("");
-    }
-
-
-    @Override
-    public Loader<String> onCreateLoader(int id, Bundle args) {
-        output.append("AsyncTask will be loaded\n");
-        return new MyAsyncTaskLoader(this);
-    }
-
-    @Override
-    public void onLoadFinished(Loader<String> loader, String data) {
-        output.append(data + " is your data");
-    }
-
-
-    @Override
-    public void onLoaderReset(Loader<String> loader) {
-
     }
 
     @Override

@@ -4,21 +4,25 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.android.restful.Utilities.NetworkHelper;
 import com.example.android.restful.model.DataItem;
+import com.example.android.restful.model.RequestPackage;
 import com.example.android.restful.model.SingleData;
 import com.example.android.restful.services.MyIntentService;
+
+import static com.example.android.restful.services.MyIntentService.REQUEST_PACKAGE;
 
 public class MainActivity extends AppCompatActivity {
 
     private static final String JSON_URL = "https://reqres.in/api/unknown";
+
     public TextView output;
     BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
         @Override
@@ -41,19 +45,29 @@ public class MainActivity extends AppCompatActivity {
 
         output = (TextView) findViewById(R.id.output);
 
+
+        LocalBroadcastManager.getInstance(getApplicationContext())
+                .registerReceiver(broadcastReceiver,
+                        new IntentFilter(MyIntentService.MY_SERVICE_MESSAGE));
+
         networkOk = NetworkHelper.hasNetworkAccess(this);
         output.append("Network Okay: " + networkOk);
 
     }
 
     public void runClickHandler(View view) {
-//        getSupportLoaderManager().initLoader(0, null, this).forceLoad();
-        Intent intent = new Intent(this, MyIntentService.class);
-        intent.setData(Uri.parse(JSON_URL));
-//        One thread will be used.
-        startService(intent);
-        LocalBroadcastManager.getInstance(this)
-                .registerReceiver(broadcastReceiver, new IntentFilter(MyIntentService.MY_SERVICE_MESSAGE));
+        if (networkOk) {
+            RequestPackage requestPackage = new RequestPackage();
+
+            requestPackage.setEndPoint(JSON_URL);
+            requestPackage.setParam("category", "desserts");
+
+            Intent intent = new Intent(this, MyIntentService.class);
+            intent.putExtra(REQUEST_PACKAGE, requestPackage);
+            startService(intent);
+        } else {
+            Toast.makeText(this, "Network not available!", Toast.LENGTH_SHORT).show();
+        }
     }
 
     public void clearClickHandler(View view) {

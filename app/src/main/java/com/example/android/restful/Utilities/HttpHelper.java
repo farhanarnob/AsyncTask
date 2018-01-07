@@ -5,6 +5,8 @@ package com.example.android.restful.Utilities;
  * for learning http connection
  */
 
+import com.example.android.restful.model.RequestPackage;
+
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -23,15 +25,22 @@ public class HttpHelper {
     /**
      * Returns text from a URL on a web server
      *
-     * @param address
      * @return
      * @throws IOException
      */
 
-    public static String downloadUrl(String address) throws IOException {
+    public static String downloadUrl(RequestPackage requestPackage) throws IOException {
 
 
         InputStream is = null;
+
+        String address = requestPackage.getEndpoint();
+        String encodedParam = requestPackage.getEncodedParams();
+
+        if (requestPackage.getMethod().equals("GET") &&
+                encodedParam.length() > 0) {
+            address = String.format("%s?%s", address, encodedParam);
+        }
 
         try {
 

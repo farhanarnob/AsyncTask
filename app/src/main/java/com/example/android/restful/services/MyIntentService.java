@@ -2,13 +2,13 @@ package com.example.android.restful.services;
 
 import android.app.IntentService;
 import android.content.Intent;
-import android.net.Uri;
 import android.support.annotation.Nullable;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
 import com.example.android.restful.Utilities.HttpHelper;
 import com.example.android.restful.model.DataItem;
+import com.example.android.restful.model.RequestPackage;
 import com.google.gson.Gson;
 
 import java.io.IOException;
@@ -21,6 +21,7 @@ import java.io.IOException;
 public class MyIntentService extends IntentService {
     public static final String MY_SERVICE_MESSAGE = "MyServiceMessage";
     public static final String My_SERVICE_PAYLOAD = "MyServicePayload";
+    public static final String REQUEST_PACKAGE = "requestPackage";
     private static final String TAG = MyIntentService.class.getSimpleName();
 
     public MyIntentService() {
@@ -29,11 +30,11 @@ public class MyIntentService extends IntentService {
 
     @Override
     protected void onHandleIntent(@Nullable Intent intent) {
-        Uri uri = intent != null ? intent.getData() : null;
-        Log.i(TAG, uri != null ? uri.toString() : null);
+
+        RequestPackage requestPackage = intent.getParcelableExtra(REQUEST_PACKAGE);
         String response;
         try {
-            response = HttpHelper.downloadUrl(uri.toString());
+            response = HttpHelper.downloadUrl(requestPackage);
         } catch (IOException e) {
             e.printStackTrace();
             return;

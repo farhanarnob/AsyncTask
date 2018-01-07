@@ -3,7 +3,11 @@ package com.example.android.restful.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class DataItem implements Parcelable {
+
     public static final Parcelable.Creator<DataItem> CREATOR = new Parcelable.Creator<DataItem>() {
         @Override
         public DataItem createFromParcel(Parcel source) {
@@ -15,61 +19,62 @@ public class DataItem implements Parcelable {
             return new DataItem[size];
         }
     };
-    private int id;
-    private String name;
-    private int year;
-    private String color;
-    private String pantoneValue;
+    private int page;
+    private int perPage;
+    private int total;
+    private int totalPages;
+    private List<SingleData> data = null;
 
     public DataItem() {
     }
 
     protected DataItem(Parcel in) {
-        this.id = in.readInt();
-        this.name = in.readString();
-        this.year = in.readInt();
-        this.color = in.readString();
-        this.pantoneValue = in.readString();
+        this.page = in.readInt();
+        this.perPage = in.readInt();
+        this.total = in.readInt();
+        this.totalPages = in.readInt();
+        this.data = new ArrayList<SingleData>();
+        in.readList(this.data, SingleData.class.getClassLoader());
     }
 
-    public int getId() {
-        return id;
+    public int getPage() {
+        return page;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setPage(int page) {
+        this.page = page;
     }
 
-    public String getName() {
-        return name;
+    public int getPerPage() {
+        return perPage;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setPerPage(int perPage) {
+        this.perPage = perPage;
     }
 
-    public int getYear() {
-        return year;
+    public int getTotal() {
+        return total;
     }
 
-    public void setYear(int year) {
-        this.year = year;
+    public void setTotal(int total) {
+        this.total = total;
     }
 
-    public String getColor() {
-        return color;
+    public int getTotalPages() {
+        return totalPages;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public void setTotalPages(int totalPages) {
+        this.totalPages = totalPages;
     }
 
-    public String getPantoneValue() {
-        return pantoneValue;
+    public List<SingleData> getData() {
+        return data;
     }
 
-    public void setPantoneValue(String pantoneValue) {
-        this.pantoneValue = pantoneValue;
+    public void setData(List<SingleData> data) {
+        this.data = data;
     }
 
     @Override
@@ -79,10 +84,10 @@ public class DataItem implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeInt(this.id);
-        dest.writeString(this.name);
-        dest.writeInt(this.year);
-        dest.writeString(this.color);
-        dest.writeString(this.pantoneValue);
+        dest.writeInt(this.page);
+        dest.writeInt(this.perPage);
+        dest.writeInt(this.total);
+        dest.writeInt(this.totalPages);
+        dest.writeList(this.data);
     }
 }

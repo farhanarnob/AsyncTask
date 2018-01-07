@@ -12,17 +12,23 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.android.restful.Utilities.NetworkHelper;
+import com.example.android.restful.model.DataItem;
+import com.example.android.restful.model.SingleData;
 import com.example.android.restful.services.MyIntentService;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String JSON_URL = "https://reqres.in/api/unknown/2";
+    private static final String JSON_URL = "https://reqres.in/api/unknown";
     public TextView output;
     BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            String message = intent.getStringExtra(MyIntentService.My_SERVICE_PAYLOAD);
-            output.append("\n" + message);
+            DataItem message = intent.getParcelableExtra(MyIntentService.My_SERVICE_PAYLOAD);
+            SingleData[] singleData = message.getData().toArray(new SingleData[0]);
+            for (SingleData data :
+                    singleData) {
+                output.append("\n" + data.getName() + " # " + data.getYear());
+            }
         }
     };
     private boolean networkOk;

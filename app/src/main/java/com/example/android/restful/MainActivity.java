@@ -13,10 +13,7 @@ import android.widget.Toast;
 
 import com.example.android.restful.Utilities.NetworkHelper;
 import com.example.android.restful.model.DataItem;
-import com.example.android.restful.model.RequestPackage;
 import com.example.android.restful.services.MyIntentService;
-
-import static com.example.android.restful.services.MyIntentService.REQUEST_PACKAGE;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -56,15 +53,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void runClickHandler(View view) {
         if (networkOk) {
-            RequestPackage requestPackage = new RequestPackage();
-
-            requestPackage.setEndPoint(JSON_URL);
-            requestPackage.setParam("category", "desserts");
-            requestPackage.setMethod("POST");
-
-            Intent intent = new Intent(this, MyIntentService.class);
-            intent.putExtra(REQUEST_PACKAGE, requestPackage);
-            startService(intent);
+            requestData();
+//            RequestPackage requestPackage = new RequestPackage();
+//
+//            requestPackage.setEndPoint(JSON_URL);
+//            requestPackage.setParam("category", "desserts");
+//            requestPackage.setMethod("POST");
+//
+//            Intent intent = new Intent(this, MyIntentService.class);
+//            intent.putExtra(REQUEST_PACKAGE, requestPackage);
+//            startService(intent);
         } else {
             Toast.makeText(this, "Network not available!", Toast.LENGTH_SHORT).show();
         }
@@ -79,5 +77,11 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         LocalBroadcastManager.getInstance(this)
                 .unregisterReceiver(broadcastReceiver);
+    }
+
+
+    private void requestData() {
+        Intent intent = new Intent(this, MyIntentService.class);
+        startService(intent);
     }
 }

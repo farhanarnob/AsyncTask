@@ -6,12 +6,11 @@ import android.support.annotation.Nullable;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
-import com.example.android.restful.Utilities.HttpHelper;
 import com.example.android.restful.model.DataItem;
-import com.example.android.restful.model.RequestPackage;
-import com.google.gson.Gson;
 
 import java.io.IOException;
+
+import retrofit2.Call;
 
 /**
  * Created by Arnob on 1/4/2018.
@@ -31,22 +30,38 @@ public class MyIntentService extends IntentService {
     @Override
     protected void onHandleIntent(@Nullable Intent intent) {
 
-        RequestPackage requestPackage = intent != null ? (RequestPackage) intent.getParcelableExtra(REQUEST_PACKAGE) : null;
-        String response;
+//        Make the web service request
+        MyWebService myWebService = MyWebService.retrofit.create(MyWebService.class);
+        Call<DataItem[]> dataItemCall = myWebService.getData();
+
+
+        DataItem[] dataItems;
+
         try {
-            response = HttpHelper.downloadUrl(requestPackage);
+            dataItems = dataItemCall.execute().body();
         } catch (IOException e) {
             e.printStackTrace();
+            Log.i(TAG, "onHandled Intent:" + e.getMessage());
             return;
         }
 
-        // gson
-        Gson gson = new Gson();
-        DataItem[] dataItem = gson.fromJson(response, DataItem[].class);
 
-        Log.i(TAG, dataItem.getClass().getSimpleName());
+//        RequestPackage requestPackage = intent != null ? (RequestPackage) intent.getParcelableExtra(REQUEST_PACKAGE) : null;
+//        String response;
+//        try {
+//            response = HttpHelper.downloadUrl(requestPackage);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//            return;
+//        }
+//
+//        // gson
+//        Gson gson = new Gson();
+//        DataItem[] dataItem = gson.fromJson(response, DataItem[].class);
+//
+//        Log.i(TAG, dataItem.getClass().getSimpleName());
         Intent intent1 = new Intent(MY_SERVICE_MESSAGE);
-        intent1.putExtra(My_SERVICE_PAYLOAD, dataItem);
+        intent1.putExtra(My_SERVICE_PAYLOAD, dataItems);
         LocalBroadcastManager.getInstance(this).sendBroadcast(intent1);
     }
 

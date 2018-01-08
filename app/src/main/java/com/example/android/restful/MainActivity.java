@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
             requestPackage.setEndPoint(JSON_URL);
             requestPackage.setParam("category", "desserts");
+            requestPackage.setMethod("GET");
 
             Intent intent = new Intent(this, MyIntentService.class);
             intent.putExtra(REQUEST_PACKAGE, requestPackage);

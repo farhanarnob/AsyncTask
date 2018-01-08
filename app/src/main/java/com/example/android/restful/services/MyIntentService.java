@@ -31,7 +31,7 @@ public class MyIntentService extends IntentService {
     @Override
     protected void onHandleIntent(@Nullable Intent intent) {
 
-        RequestPackage requestPackage = intent.getParcelableExtra(REQUEST_PACKAGE);
+        RequestPackage requestPackage = intent != null ? (RequestPackage) intent.getParcelableExtra(REQUEST_PACKAGE) : null;
         String response;
         try {
             response = HttpHelper.downloadUrl(requestPackage);
@@ -42,7 +42,7 @@ public class MyIntentService extends IntentService {
 
         // gson
         Gson gson = new Gson();
-        DataItem dataItem = gson.fromJson(response, DataItem.class);
+        DataItem[] dataItem = gson.fromJson(response, DataItem[].class);
 
         Log.i(TAG, dataItem.getClass().getSimpleName());
         Intent intent1 = new Intent(MY_SERVICE_MESSAGE);

@@ -1,17 +1,14 @@
 package com.example.android.restful.Utilities;
 
-/**
- * Created by arnob on 1/7/2018.
- * for learning http connection
- */
-
 import com.example.android.restful.model.RequestPackage;
 
 import java.io.IOException;
-import java.io.InputStream;
+import java.util.Map;
 
+import okhttp3.MultipartBody;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
+import okhttp3.RequestBody;
 import okhttp3.Response;
 
 
@@ -25,14 +22,12 @@ public class HttpHelper {
     /**
      * Returns text from a URL on a web server
      *
-     * @return
-     * @throws IOException
+     * @return String of date which is json formatted.
+     * @throws IOException for detecting that connection is not successful.
      */
 
     public static String downloadUrl(RequestPackage requestPackage) throws IOException {
 
-
-        InputStream is = null;
 
         String address = requestPackage.getEndpoint();
         String encodedParam = requestPackage.getEncodedParams();
@@ -46,6 +41,23 @@ public class HttpHelper {
         OkHttpClient client = new OkHttpClient();
 
         Request.Builder requestBuilder = new Request.Builder().url(address);
+
+
+//        Post method start
+        if (requestPackage.getMethod().equals("POST")) {
+            MultipartBody.Builder builder = new MultipartBody.Builder()
+                    .setType(MultipartBody.FORM);
+            Map<String, String> params = requestPackage.getParams();
+            for (String key : params.keySet()) {
+                builder.addFormDataPart(key, params.get(key));
+            }
+            RequestBody requestBody = builder.build();
+            requestBuilder.method("POST", requestBody);
+        }
+
+//        Post method end
+
+
 
         Request request = requestBuilder.build();
 

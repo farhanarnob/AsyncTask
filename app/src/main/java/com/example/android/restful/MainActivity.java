@@ -14,24 +14,23 @@ import android.widget.Toast;
 import com.example.android.restful.Utilities.NetworkHelper;
 import com.example.android.restful.model.DataItem;
 import com.example.android.restful.model.RequestPackage;
-import com.example.android.restful.model.SingleData;
 import com.example.android.restful.services.MyIntentService;
 
 import static com.example.android.restful.services.MyIntentService.REQUEST_PACKAGE;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String JSON_URL = "https://reqres.in/api/unknown";
+    private static final String JSON_URL = "http://560057.youcanlearnit.net/services/json/itemsfeed.php";
 
     public TextView output;
     BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            DataItem message = intent.getParcelableExtra(MyIntentService.My_SERVICE_PAYLOAD);
-            SingleData[] singleData = message.getData().toArray(new SingleData[0]);
-            for (SingleData data :
-                    singleData) {
-                output.append("\n" + data.getName() + " # " + data.getYear());
+            DataItem[] dataItems = (DataItem[]) intent
+                    .getParcelableArrayExtra(MyIntentService.My_SERVICE_PAYLOAD);
+            for (DataItem data :
+                    dataItems) {
+                output.append("\n" + data.getItemName() + " # " + data.getPrice());
             }
         }
     };
@@ -61,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
             requestPackage.setEndPoint(JSON_URL);
             requestPackage.setParam("category", "desserts");
-            requestPackage.setMethod("GET");
+            requestPackage.setMethod("POST");
 
             Intent intent = new Intent(this, MyIntentService.class);
             intent.putExtra(REQUEST_PACKAGE, requestPackage);

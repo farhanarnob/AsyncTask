@@ -59,7 +59,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void runClickHandler(View view) {
         if (networkOk) {
-            requestData();
+//            requestData();
+            requestData("Desserts");
 //            RequestPackage requestPackage = new RequestPackage();
 //
 //            requestPackage.setEndPoint(JSON_URL);
@@ -91,6 +92,16 @@ public class MainActivity extends AppCompatActivity {
 //        startService(intent);
         MyWebService myWebService = MyWebService.retrofit.create(MyWebService.class);
         Call<DataItem[]> call = myWebService.getData();
+        sendRequest(call);
+    }
+
+    private void requestData(String category) {
+        MyWebService myWebService = MyWebService.retrofit.create(MyWebService.class);
+        Call<DataItem[]> call = myWebService.getData(category);
+        sendRequest(call);
+    }
+
+    private void sendRequest(Call<DataItem[]> call) {
         call.enqueue(new Callback<DataItem[]>() {
             @Override
             public void onResponse(@NonNull Call<DataItem[]> call, @NonNull Response<DataItem[]> response) {

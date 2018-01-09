@@ -6,6 +6,7 @@ import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.GET;
+import retrofit2.http.Query;
 
 /**
  * Created by hp on 1/8/2018.
@@ -22,4 +23,7 @@ public interface MyWebService {
 
     @GET(FEED)
     Call<DataItem[]> getData();
+
+    @GET(FEED)
+    Call<DataItem[]> getData(@Query("category") String category);
 }

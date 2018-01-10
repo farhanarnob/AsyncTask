@@ -32,4 +32,7 @@ dependencies {
     // adding retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.3.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'// for converting request into GSON format
+
+    // Android Java projects for making field helper class of realm object
+    annotationProcessor 'dk.ilios:realmfieldnameshelper:1.1.1'
 }

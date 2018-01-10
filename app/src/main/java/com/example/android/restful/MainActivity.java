@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
     }
 
     public void clearClickHandler(View view) {
+        dataAlreadyInserted = realmProcessor.deleteRealmObject();
         output.setText("");
     }
 

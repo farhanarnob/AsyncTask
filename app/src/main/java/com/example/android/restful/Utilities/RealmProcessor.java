@@ -19,7 +19,7 @@ import io.realm.RealmResults;
 
 public class RealmProcessor {
     private static final String TAG = RealmProcessor.class.getSimpleName();
-
+    private boolean deleted = false;
     private Realm realm;
     private RealmExecuteDone realmExecuteDone;
 
@@ -76,5 +76,21 @@ public class RealmProcessor {
         DataItem[] dataItems = new DataItem[realmResults.size()];
         dataItems = realmResults.toArray(dataItems);
         return dataItems;
+    }
+
+    public boolean deleteRealmObject() {
+        deleted = false;
+        realm.executeTransactionAsync(new Realm.Transaction() {
+            @Override
+            public void execute(Realm realm) {
+                realm.where(DataItem.class).findAll().deleteAllFromRealm();
+            }
+        }, new Realm.Transaction.OnSuccess() {
+            @Override
+            public void onSuccess() {
+                deleted = true;
+            }
+        });
+        return deleted;
     }
 }

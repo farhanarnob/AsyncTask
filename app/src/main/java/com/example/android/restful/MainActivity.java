@@ -9,6 +9,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.NumberPicker;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -38,9 +39,11 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
             }
         }
     };
+    private NumberPicker numberPicker;
     private boolean dataAlreadyInserted = false;
     private RealmProcessor realmProcessor;
     private boolean networkOk;
+    private String TAG = MainActivity.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +52,9 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
 
 
         output = (TextView) findViewById(R.id.output);
+
+
+        numberPickerInitialization();
 
 
         LocalBroadcastManager.getInstance(getApplicationContext())
@@ -64,19 +70,11 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
 
     }
 
+
     public void runClickHandler(View view) {
         if (networkOk) {
-//            requestData();
-            requestData("Desserts");
-//            RequestPackage requestPackage = new RequestPackage();
-//
-//            requestPackage.setEndPoint(JSON_URL);
-//            requestPackage.setParam("category", "desserts");
-//            requestPackage.setMethod("POST");
-//
-//            Intent intent = new Intent(this, MyIntentService.class);
-//            intent.putExtra(REQUEST_PACKAGE, requestPackage);
-//            startService(intent);
+            requestData();
+//            requestData("Desserts");
         } else {
             Toast.makeText(this, "Network not available!", Toast.LENGTH_SHORT).show();
         }
@@ -97,11 +95,13 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
 
 
     private void requestData() {
-//        Intent intent = new Intent(this, MyIntentService.class);
-//        startService(intent);
-        MyWebService myWebService = MyWebService.retrofit.create(MyWebService.class);
-        Call<DataItem[]> call = myWebService.getData();
-        sendRequest(call);
+        if (!dataAlreadyInserted) {
+            MyWebService myWebService = MyWebService.retrofit.create(MyWebService.class);
+            Call<DataItem[]> call = myWebService.getData();
+            sendRequest(call);
+        } else {
+            Toast.makeText(this, "data already updated. Clean to redraw.", Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void requestData(String category) {
@@ -132,14 +132,29 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
 
     @Override
     public void insertionDone() {
-        showDataFromRealm();
+        showDataFromRealm(numberPicker.getValue());
 
     }
 
-    private void showDataFromRealm() {
-        realmProcessor.getAllData();
-        for (DataItem dataItem : realmProcessor.getAllData()) {
-            output.append("\n" + dataItem.getItemName() + " # " + dataItem.getPrice());
+    private void showDataFromRealm(int newVal) {
+        DataItem[] dataItems = realmProcessor.getData(newVal);
+        output.setText("");
+        for (DataItem dataItem : dataItems) {
+            output.append("\n" + dataItem.getItemName() + " # Price: $" + dataItem.getPrice());
         }
+    }
+
+
+    private void numberPickerInitialization() {
+        numberPicker = (NumberPicker) findViewById(R.id.np);
+        numberPicker.setMinValue(5);
+        numberPicker.setMaxValue(10);
+        numberPicker.setValue(10);
+        numberPicker.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
+            @Override
+            public void onValueChange(NumberPicker picker, int oldVal, int newVal) {
+                showDataFromRealm(newVal);
+            }
+        });
     }
 }

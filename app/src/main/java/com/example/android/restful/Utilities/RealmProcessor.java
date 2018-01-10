@@ -12,6 +12,9 @@ import java.util.List;
 import io.realm.Realm;
 import io.realm.RealmResults;
 
+import static com.example.android.restful.model.NameModel.ITEM_NAME;
+import static com.example.android.restful.model.NameModel.PRICE;
+
 /**
  * Created by hp on 1/10/2018.
  */
@@ -21,6 +24,7 @@ public class RealmProcessor {
 
     private Realm realm;
     private RealmExecuteDone realmExecuteDone;
+
 
     private RealmProcessor() {
     }
@@ -62,8 +66,11 @@ public class RealmProcessor {
 
     }
 
-    public DataItem[] getAllData() {
-        RealmResults<DataItem> realmResults = realm.where(DataItem.class).findAll();
+    public DataItem[] getData(int maxPrice) {
+        RealmResults<DataItem> realmResults = realm.where(DataItem.class)
+                .isNotNull(ITEM_NAME)
+                .lessThan(PRICE, Double.valueOf(maxPrice))
+                .findAll();
         DataItem[] dataItems = new DataItem[realmResults.size()];
         dataItems = realmResults.toArray(dataItems);
         return dataItems;

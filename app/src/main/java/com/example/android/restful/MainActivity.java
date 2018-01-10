@@ -1,25 +1,23 @@
 package com.example.android.restful;
 
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
-import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.NumberPicker;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.android.restful.Utilities.MyAdapterRealmAdapter;
 import com.example.android.restful.Utilities.NetworkHelper;
 import com.example.android.restful.Utilities.RealmProcessor;
 import com.example.android.restful.model.DataItem;
 import com.example.android.restful.observer.RealmExecuteDone;
-import com.example.android.restful.services.MyIntentService;
 import com.example.android.restful.services.MyWebService;
 
+import io.realm.RealmResults;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -28,17 +26,8 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
 
     private static final String JSON_URL = "http://560057.youcanlearnit.net/services/json/itemsfeed.php";
     public TextView output;
-    BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            DataItem[] dataItems = (DataItem[]) intent
-                    .getParcelableArrayExtra(MyIntentService.My_SERVICE_PAYLOAD);
-            for (DataItem data :
-                    dataItems) {
-                output.append("\n" + data.getItemName() + " # " + data.getPrice());
-            }
-        }
-    };
+    MyAdapterRealmAdapter myAdapterRealmAdapter;
+    private RecyclerView dataRecyclerView;
     private NumberPicker numberPicker;
     private boolean dataAlreadyInserted = false;
     private RealmProcessor realmProcessor;
@@ -50,24 +39,28 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        output = (TextView) findViewById(R.id.output);
-
-
+//        // id initialization
         numberPickerInitialization();
+        dataRecyclerView = (RecyclerView) findViewById(R.id.recycleViewData);
+        initializeRecycleView();
 
-
-        LocalBroadcastManager.getInstance(getApplicationContext())
-                .registerReceiver(broadcastReceiver,
-                        new IntentFilter(MyIntentService.MY_SERVICE_MESSAGE));
-
+        // network test
         networkOk = NetworkHelper.hasNetworkAccess(this);
-        output.append("Network Okay: " + networkOk);
 
+        // realm initialization
         realmProcessor = new RealmProcessor(this);
         realmProcessor.open();
 
 
+    }
+
+    private void initializeRecycleView() {
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+        dataRecyclerView.setLayoutManager(layoutManager);
+        dataRecyclerView.setHasFixedSize(true);
+        myAdapterRealmAdapter = new MyAdapterRealmAdapter(null, true);
+        dataRecyclerView.setAdapter(myAdapterRealmAdapter);
     }
 
 
@@ -88,8 +81,6 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        LocalBroadcastManager.getInstance(this)
-                .unregisterReceiver(broadcastReceiver);
         realmProcessor.close();
 
     }
@@ -139,11 +130,8 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
     }
 
     private void showDataFromRealm(int newVal) {
-        DataItem[] dataItems = realmProcessor.getData(newVal);
-        output.setText("");
-        for (DataItem dataItem : dataItems) {
-            output.append("\n" + dataItem.getItemName() + " # Price: $" + dataItem.getPrice());
-        }
+        RealmResults<DataItem> realmResults = realmProcessor.getData(newVal);
+        myAdapterRealmAdapter.updateData(realmResults);
     }
 
 

@@ -35,4 +35,16 @@ dependencies {
 
     // Android Java projects for making field helper class of realm object
     annotationProcessor 'dk.ilios:realmfieldnameshelper:1.1.1'
+
+    // realm recycle adapter
+    implementation "io.realm:android-adapters:2.1.1"
+
+    // recycler view adapter library
+    implementation "com.android.support:recyclerview-v7:25.4.0"
+
+    // constraint layout
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    // Photo storing
+    implementation 'com.squareup.picasso:picasso:2.5.2'
 }

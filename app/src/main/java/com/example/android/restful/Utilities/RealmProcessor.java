@@ -13,6 +13,8 @@ import java.util.List;
 import io.realm.Realm;
 import io.realm.RealmResults;
 
+import static com.example.android.restful.model.DataItemFields.ITEM_NAME;
+
 /**
  * Created by hp on 1/10/2018.
  */
@@ -68,14 +70,14 @@ public class RealmProcessor {
         return realm.isEmpty();
     }
 
-    public DataItem[] getData(int maxPrice) {
-        RealmResults<DataItem> realmResults = realm.where(DataItem.class)
-                .isNotNull(DataItemFields.ITEM_NAME)
+    public RealmResults<DataItem> getData(int maxPrice) {
+        String array[] = {"apple pie"};
+        return realm.where(DataItem.class)
+                .isNotNull(ITEM_NAME)
+//                .in(ITEM_NAME,array,Case.INSENSITIVE)
                 .lessThanOrEqualTo(DataItemFields.PRICE, Double.valueOf(maxPrice))
                 .findAll();
-        DataItem[] dataItems = new DataItem[realmResults.size()];
-        dataItems = realmResults.toArray(dataItems);
-        return dataItems;
+
     }
 
     public boolean deleteRealmObject() {

@@ -95,22 +95,23 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
 
 
     private void requestData() {
-        if (!dataAlreadyInserted) {
+
+        if (realmProcessor.realmIsEmpty() && !dataAlreadyInserted) {
             MyWebService myWebService = MyWebService.retrofit.create(MyWebService.class);
             Call<DataItem[]> call = myWebService.getData();
             sendRequest(call);
         } else {
-            Toast.makeText(this, "data already updated. Clean to redraw.", Toast.LENGTH_SHORT).show();
+            showDataFromRealm(numberPicker.getValue());
         }
     }
 
     private void requestData(String category) {
-        if (!dataAlreadyInserted) {
+        if (realmProcessor.realmIsEmpty() && !dataAlreadyInserted) {
             MyWebService myWebService = MyWebService.retrofit.create(MyWebService.class);
             Call<DataItem[]> call = myWebService.getData(category);
             sendRequest(call);
         } else {
-            Toast.makeText(this, "data already updated. Clean to redraw.", Toast.LENGTH_SHORT).show();
+            showDataFromRealm(numberPicker.getValue());
         }
     }
 
@@ -147,8 +148,8 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
 
     private void numberPickerInitialization() {
         numberPicker = (NumberPicker) findViewById(R.id.np);
-        numberPicker.setMinValue(5);
-        numberPicker.setMaxValue(10);
+        numberPicker.setMinValue(4);
+        numberPicker.setMaxValue(14);
         numberPicker.setValue(10);
         numberPicker.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
             @Override

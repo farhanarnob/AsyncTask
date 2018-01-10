@@ -66,10 +66,14 @@ public class RealmProcessor {
 
     }
 
+    public boolean realmIsEmpty() {
+        return realm.isEmpty();
+    }
+
     public DataItem[] getData(int maxPrice) {
         RealmResults<DataItem> realmResults = realm.where(DataItem.class)
                 .isNotNull(ITEM_NAME)
-                .lessThan(PRICE, Double.valueOf(maxPrice))
+                .lessThanOrEqualTo(PRICE, Double.valueOf(maxPrice))
                 .findAll();
         DataItem[] dataItems = new DataItem[realmResults.size()];
         dataItems = realmResults.toArray(dataItems);

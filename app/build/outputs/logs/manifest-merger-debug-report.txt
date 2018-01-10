@@ -72,7 +72,7 @@ MERGED from [com.android.support:support-compat:25.4.0] C:\Users\hp\.gradle\cach
 	android:label
 		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:12:9-41
 	android:icon
-		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:11:9-57
 	android:allowBackup
 		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme

@@ -15,7 +15,7 @@
         android:name="com.example.android.restful.RealmInitializationApplication"
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@android:drawable/ic_dialog_alert"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:testOnly="true"

@@ -15,16 +15,13 @@ import android.widget.Toast;
 import com.example.android.restful.Utilities.NetworkHelper;
 import com.example.android.restful.Utilities.RealmProcessor;
 import com.example.android.restful.model.DataItem;
+import com.example.android.restful.observer.RealmExecuteDone;
 import com.example.android.restful.services.MyIntentService;
 import com.example.android.restful.services.MyWebService;
 
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
-interface RealmExecuteDone {
-    void insertionDone();
-}
 
 public class MainActivity extends AppCompatActivity implements RealmExecuteDone {
 
@@ -41,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
             }
         }
     };
+    private boolean dataAlreadyInserted = false;
     private RealmProcessor realmProcessor;
     private boolean networkOk;
 
@@ -60,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
         networkOk = NetworkHelper.hasNetworkAccess(this);
         output.append("Network Okay: " + networkOk);
 
-        realmProcessor = new RealmProcessor();
+        realmProcessor = new RealmProcessor(this);
         realmProcessor.open();
 
 
@@ -107,9 +105,13 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
     }
 
     private void requestData(String category) {
-        MyWebService myWebService = MyWebService.retrofit.create(MyWebService.class);
-        Call<DataItem[]> call = myWebService.getData(category);
-        sendRequest(call);
+        if (!dataAlreadyInserted) {
+            MyWebService myWebService = MyWebService.retrofit.create(MyWebService.class);
+            Call<DataItem[]> call = myWebService.getData(category);
+            sendRequest(call);
+        } else {
+            Toast.makeText(this, "data already updated. Clean to redraw.", Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void sendRequest(Call<DataItem[]> call) {
@@ -117,7 +119,7 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
             @Override
             public void onResponse(@NonNull Call<DataItem[]> call, @NonNull Response<DataItem[]> response) {
                 DataItem[] dataItems = response.body();
-                realmProcessor.createDataItemAllAsync(dataItems);
+                dataAlreadyInserted = realmProcessor.createDataItemAllAsync(dataItems);
             }
 
             @Override
@@ -130,6 +132,14 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
 
     @Override
     public void insertionDone() {
+        showDataFromRealm();
 
+    }
+
+    private void showDataFromRealm() {
+        realmProcessor.getAllData();
+        for (DataItem dataItem : realmProcessor.getAllData()) {
+            output.append("\n" + dataItem.getItemName() + " # " + dataItem.getPrice());
+        }
     }
 }

@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name="com.example.android.restful.RealmInitializationApplication"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"

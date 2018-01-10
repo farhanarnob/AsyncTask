@@ -3,7 +3,11 @@ package com.example.android.restful.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class DataItem implements Parcelable {
+import java.util.UUID;
+
+import io.realm.RealmObject;
+
+public class DataItem extends RealmObject implements Parcelable {
 
     public static final Parcelable.Creator<DataItem> CREATOR = new Parcelable.Creator<DataItem>() {
         @Override
@@ -16,16 +20,16 @@ public class DataItem implements Parcelable {
             return new DataItem[size];
         }
     };
+
+    private String id = String.valueOf(UUID.randomUUID());
     private String itemName;
     private String category;
     private String description;
     private int sort;
     private double price;
     private String image;
-
     public DataItem() {
     }
-
     protected DataItem(Parcel in) {
         this.itemName = in.readString();
         this.category = in.readString();
@@ -33,6 +37,14 @@ public class DataItem implements Parcelable {
         this.sort = in.readInt();
         this.price = in.readDouble();
         this.image = in.readString();
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getItemName() {

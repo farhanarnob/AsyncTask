@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.android.restful.Utilities.NetworkHelper;
+import com.example.android.restful.Utilities.RealmProcessor;
 import com.example.android.restful.model.DataItem;
 import com.example.android.restful.services.MyIntentService;
 import com.example.android.restful.services.MyWebService;
@@ -21,10 +22,13 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class MainActivity extends AppCompatActivity {
+interface RealmExecuteDone {
+    void insertionDone();
+}
+
+public class MainActivity extends AppCompatActivity implements RealmExecuteDone {
 
     private static final String JSON_URL = "http://560057.youcanlearnit.net/services/json/itemsfeed.php";
-
     public TextView output;
     BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
         @Override
@@ -37,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     };
+    private RealmProcessor realmProcessor;
     private boolean networkOk;
 
     @Override
@@ -54,6 +59,10 @@ public class MainActivity extends AppCompatActivity {
 
         networkOk = NetworkHelper.hasNetworkAccess(this);
         output.append("Network Okay: " + networkOk);
+
+        realmProcessor = new RealmProcessor();
+        realmProcessor.open();
+
 
     }
 
@@ -84,6 +93,8 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         LocalBroadcastManager.getInstance(this)
                 .unregisterReceiver(broadcastReceiver);
+        realmProcessor.close();
+
     }
 
 
@@ -106,10 +117,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(@NonNull Call<DataItem[]> call, @NonNull Response<DataItem[]> response) {
                 DataItem[] dataItems = response.body();
-                for (DataItem data :
-                        dataItems != null ? dataItems : new DataItem[0]) {
-                    output.append("\n" + data.getItemName() + " # " + data.getPrice());
-                }
+                realmProcessor.createDataItemAllAsync(dataItems);
             }
 
             @Override
@@ -117,5 +125,11 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+
+    @Override
+    public void insertionDone() {
+
     }
 }

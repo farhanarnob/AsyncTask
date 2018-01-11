@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [io.realm:realm-android-library:4.3.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\realm-android-library-4.3.1.aar\62bd8e27c2187d8e960d9110f200c550\AndroidManifest.xml:2:1-10:12
 MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\3ac6a017af01bbc4fe2daedc53b0055b\AndroidManifest.xml:17:1-31:12
 MERGED from [io.realm:android-adapters:2.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\android-adapters-2.1.1.aar\86f511e0af210092b6f2043db6f9e719\AndroidManifest.xml:2:1-10:12
@@ -18,20 +18,20 @@ MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\hp\.gradle\cac
 MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\75ac92af020b0e9e91a875724f7c43a5\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\3d3687facce978e8a0ca977fd445a01f\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.4.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\2fe0707854fd1a6eb925eb53aafe597c\AndroidManifest.xml:17:1-31:12
-INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml
 		INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml
-		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml
-		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:2:11-69
@@ -44,7 +44,7 @@ ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
 		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:8:5-26:19
+ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:8:5-27:19
 MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\3ac6a017af01bbc4fe2daedc53b0055b\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\3ac6a017af01bbc4fe2daedc53b0055b\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\4c5236aab061c6d359c1488e8206e14a\AndroidManifest.xml:22:5-26:19
@@ -93,12 +93,16 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
 		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:19:27-74
-service#com.example.android.restful.services.MyIntentService
-ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:23:9-25:40
-	android:exported
-		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:25:13-37
+activity#com.example.android.restful.DetailsViewActivity
+ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:22:9-57
 	android:name
-		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:24:13-53
+		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:22:19-54
+service#com.example.android.restful.services.MyIntentService
+ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:24:9-26:40
+	android:exported
+		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml:25:13-53
 uses-sdk
 INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\ar_android\AsyncTask\app\src\main\AndroidManifest.xml

@@ -2,4 +2,6 @@
     <string name="app_name">Code Runner</string>
     <string name="run_code">web call</string>
     <string name="clear_output">Clear</string>
+    <string name="action_delete">delete</string>
+    <string name="action_save">save</string>
 </resources>

@@ -10,9 +10,9 @@ import android.widget.NumberPicker;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.android.restful.Utilities.MyAdapterRealmAdapter;
 import com.example.android.restful.Utilities.NetworkHelper;
 import com.example.android.restful.Utilities.RealmProcessor;
+import com.example.android.restful.data.MyAdapterRealmAdapter;
 import com.example.android.restful.model.DataItem;
 import com.example.android.restful.observer.RealmExecuteDone;
 import com.example.android.restful.services.MyWebService;

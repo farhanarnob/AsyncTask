@@ -1,7 +1,8 @@
-package com.example.android.restful.Utilities;
+package com.example.android.restful.services;
 
 import android.util.Log;
 
+import com.example.android.restful.DetailsViewActivity;
 import com.example.android.restful.MainActivity;
 import com.example.android.restful.model.DataItem;
 import com.example.android.restful.model.DataItemFields;
@@ -14,6 +15,8 @@ import io.realm.Realm;
 import io.realm.RealmResults;
 
 import static com.example.android.restful.model.DataItemFields.ITEM_NAME;
+import static com.example.android.restful.model.WorkType.INSERT;
+import static com.example.android.restful.model.WorkType.UPDATE;
 
 /**
  * Created by hp on 1/10/2018.
@@ -26,12 +29,14 @@ public class RealmProcessor {
     private RealmExecuteDone realmExecuteDone;
 
 
-    private RealmProcessor() {
+    public RealmProcessor(DetailsViewActivity detailsViewActivity) {
+        realmExecuteDone = detailsViewActivity;
     }
 
     public RealmProcessor(MainActivity mainActivity) {
         realmExecuteDone = mainActivity;
     }
+
 
     public void open() {
         // initialize realm
@@ -54,7 +59,7 @@ public class RealmProcessor {
             }, new Realm.Transaction.OnSuccess() {
                 @Override
                 public void onSuccess() {
-                    realmExecuteDone.insertionDone();
+                    realmExecuteDone.ProgressDone(INSERT);
                 }
             });
         }
@@ -71,12 +76,16 @@ public class RealmProcessor {
     }
 
     public RealmResults<DataItem> getData(int maxPrice) {
-        String array[] = {"apple pie"};
         return realm.where(DataItem.class)
                 .isNotNull(ITEM_NAME)
-//                .in(ITEM_NAME,array,Case.INSENSITIVE)
                 .lessThanOrEqualTo(DataItemFields.PRICE, Double.valueOf(maxPrice))
                 .findAll();
+
+    }
+
+    public DataItem getData(String id) {
+        return realm.where(DataItem.class)
+                .contains(DataItemFields.ID, id).findFirst();
 
     }
 
@@ -95,4 +104,18 @@ public class RealmProcessor {
         });
         return deleted;
     }
+
+    public void updateDescription(String idOfData, final String description) {
+        final DataItem dataItem = realm.where(DataItem.class).equalTo(DataItemFields.ID, idOfData).findFirst();
+//        Log.i(TAG,idOfData);
+//        realm.executeTransaction(new Realm.Transaction() {
+//            @Override
+//            public void execute(Realm realm) {
+//                assert dataItem != null;
+//                dataItem.setDescription(description);
+//            }
+//        });
+        realmExecuteDone.ProgressDone(UPDATE);
+    }
 }
+

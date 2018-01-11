@@ -3,6 +3,7 @@ package com.example.android.restful.data;
 import android.content.Intent;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,12 +17,15 @@ import com.example.android.restful.model.DataItem;
 import io.realm.OrderedRealmCollection;
 import io.realm.RealmRecyclerViewAdapter;
 
+import static com.example.android.restful.model.DataItemFields.ID;
+
 /**
  * Created by hp on 1/10/2018.
  */
 
 public class MyAdapterRealmAdapter extends RealmRecyclerViewAdapter<DataItem, MyAdapterRealmAdapter.ViewHolder> {
     public static final String SINGLE_DATA_ITEM = "singleDataItem";
+    private static final String TAG = MyAdapterRealmAdapter.class.getSimpleName();
     RecyclerViewClickListener mRecyclerViewClickListener;
     public MyAdapterRealmAdapter(@Nullable OrderedRealmCollection<DataItem> data, boolean autoUpdate) {
         super(data, true);
@@ -56,8 +60,9 @@ public class MyAdapterRealmAdapter extends RealmRecyclerViewAdapter<DataItem, My
         return new RecyclerViewClickListener() {
             @Override
             public void onClick(View view, DataItem dataItem) {
+                Log.i(TAG, dataItem.getId());
                 Intent intent = new Intent(view.getContext(), DetailsViewActivity.class);
-                intent.putExtra(SINGLE_DATA_ITEM, dataItem);
+                intent.putExtra(ID, dataItem.getId());
                 view.getContext().startActivity(intent);
             }
         };

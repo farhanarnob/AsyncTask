@@ -5,5 +5,5 @@ package com.example.android.restful.observer;
  */
 
 public interface RealmExecuteDone {
-    void insertionDone();
+    void ProgressDone(int type);
 }

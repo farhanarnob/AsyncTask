@@ -11,6 +11,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.restful.MainActivity">
 
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleViewData"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/run_button"
+        android:layout_weight="4" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -40,15 +48,6 @@
             android:layout_marginStart="39dp" />
 
     </RelativeLayout>
-
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycleViewData"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_above="@+id/run_button"
-        android:layout_weight="4" />
-
 
 
 </LinearLayout>

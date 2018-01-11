@@ -6,21 +6,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.NumberPicker;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.android.restful.Utilities.NetworkHelper;
-import com.example.android.restful.Utilities.RealmProcessor;
 import com.example.android.restful.data.MyAdapterRealmAdapter;
 import com.example.android.restful.model.DataItem;
 import com.example.android.restful.observer.RealmExecuteDone;
 import com.example.android.restful.services.MyWebService;
+import com.example.android.restful.services.RealmProcessor;
 
 import io.realm.RealmResults;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+
+import static com.example.android.restful.model.WorkType.INSERT;
 
 public class MainActivity extends AppCompatActivity implements RealmExecuteDone {
 
@@ -124,8 +127,20 @@ public class MainActivity extends AppCompatActivity implements RealmExecuteDone 
 
 
     @Override
-    public void insertionDone() {
-        showDataFromRealm(numberPicker.getValue());
+    protected void onResume() {
+        super.onResume();
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
+    }
+
+    @Override
+    public void ProgressDone(int type) {
+        switch (type) {
+            case INSERT: {
+                showDataFromRealm(numberPicker.getValue());
+                break;
+            }
+        }
+
 
     }
 

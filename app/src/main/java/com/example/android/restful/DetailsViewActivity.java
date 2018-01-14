@@ -32,14 +32,17 @@ public class DetailsViewActivity extends AppCompatActivity implements RealmExecu
         mRealmProcessor = new RealmProcessor(DetailsViewActivity.this);
         mRealmProcessor.open();
         Bundle bundle = getIntent().getExtras();
-        String dataItemID = bundle.getString(ID, "ffffaaaadddd");
+        String dataItemID = bundle.getString(ID,"");
 
         Log.i(TAG, "dataItemID" + dataItemID);
 
         dataItem = mRealmProcessor.getData(dataItemID);
         initializeView();
-        setupView(dataItem);
-        mRealmProcessor.updateDescription(dataItemID, "HELLO BOOS");
+        setupOrUpdateView(dataItem);
+        DataItem dataItemp = mRealmProcessor.updateDescription(dataItemID, "HELLO BOSS");
+        Log.d(TAG,dataItem.getDescription());
+        setupOrUpdateView(dataItemp);
+
 
     }
 
@@ -56,7 +59,7 @@ public class DetailsViewActivity extends AppCompatActivity implements RealmExecu
         textViewPrice = (TextView) findViewById(R.id.textViewPrice);
     }
 
-    private void setupView(DataItem dataItem) {
+    private void setupOrUpdateView(DataItem dataItem) {
         textViewHeadline.setText(dataItem.getItemName());
         textViewInfo.setText(dataItem.getCategory());
         textViewPrice.setText(String.format("price:%s", dataItem.getPrice()));
@@ -67,7 +70,7 @@ public class DetailsViewActivity extends AppCompatActivity implements RealmExecu
     public void ProgressDone(int type) {
         switch (type) {
             case UPDATE: {
-                showUpdatedValue();
+              //  showUpdatedValue();
                 break;
             }
         }
@@ -76,7 +79,7 @@ public class DetailsViewActivity extends AppCompatActivity implements RealmExecu
     private void showUpdatedValue() {
 
         dataItem = mRealmProcessor.getData(dataItem.getId());
-        setupView(dataItem);
+        setupOrUpdateView(dataItem);
     }
 
 }

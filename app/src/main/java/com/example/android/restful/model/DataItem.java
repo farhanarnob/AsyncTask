@@ -7,20 +7,7 @@ import java.util.UUID;
 
 import io.realm.RealmObject;
 
-public class DataItem extends RealmObject implements Parcelable {
-
-    public static final Parcelable.Creator<DataItem> CREATOR = new Parcelable.Creator<DataItem>() {
-        @Override
-        public DataItem createFromParcel(Parcel source) {
-            return new DataItem(source);
-        }
-
-        @Override
-        public DataItem[] newArray(int size) {
-            return new DataItem[size];
-        }
-    };
-
+public class DataItem extends RealmObject  {
     private String id = String.valueOf(UUID.randomUUID());
     private String itemName;
     private String category;
@@ -28,16 +15,6 @@ public class DataItem extends RealmObject implements Parcelable {
     private int sort;
     private double price;
     private String image;
-    public DataItem() {
-    }
-    protected DataItem(Parcel in) {
-        this.itemName = in.readString();
-        this.category = in.readString();
-        this.description = in.readString();
-        this.sort = in.readInt();
-        this.price = in.readDouble();
-        this.image = in.readString();
-    }
 
     public String getId() {
         return id;
@@ -95,18 +72,4 @@ public class DataItem extends RealmObject implements Parcelable {
         this.image = image;
     }
 
-    @Override
-    public int describeContents() {
-        return 0;
-    }
-
-    @Override
-    public void writeToParcel(Parcel dest, int flags) {
-        dest.writeString(this.itemName);
-        dest.writeString(this.category);
-        dest.writeString(this.description);
-        dest.writeInt(this.sort);
-        dest.writeDouble(this.price);
-        dest.writeString(this.image);
-    }
 }

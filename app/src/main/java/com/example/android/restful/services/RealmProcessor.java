@@ -105,17 +105,38 @@ public class RealmProcessor {
         return deleted;
     }
 
-    public void updateDescription(String idOfData, final String description) {
+    public DataItem updateDescription(String idOfData, final String description) {
+        if(realm==null)
+            realm=Realm.getDefaultInstance();
         final DataItem dataItem = realm.where(DataItem.class).equalTo(DataItemFields.ID, idOfData).findFirst();
-//        Log.i(TAG,idOfData);
+        Log.i(TAG,dataItem.getId());
+
+//        process 1
 //        realm.executeTransaction(new Realm.Transaction() {
 //            @Override
 //            public void execute(Realm realm) {
-//                assert dataItem != null;
 //                dataItem.setDescription(description);
 //            }
 //        });
-        realmExecuteDone.ProgressDone(UPDATE);
+//        realmExecuteDone.ProgressDone(UPDATE);
+
+//        process 2
+//        Replaced with realm.execute
+//        realm.beginTransaction();
+//        dataItem.setDescription(description);
+//        realm.commitTransaction();
+//
+//        process 3
+//        Another process
+        dataItem.setDescription("Never thought that it is always sweets");
+        realm.executeTransaction(new Realm.Transaction() {
+            @Override
+            public void execute(Realm realm) {
+                realm.insertOrUpdate(dataItem);
+            }
+        });
+
+        return dataItem;
     }
 }
 

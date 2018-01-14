@@ -1,5 +1,6 @@
 package com.example.android.restful.data;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
@@ -34,7 +35,7 @@ public class MyAdapterRealmAdapter extends RealmRecyclerViewAdapter<DataItem, My
         // In that case, {@code getItemId(int)} must also be overridden to return the key.
         // See https://developer.android.com/reference/android/support/v7/widget/RecyclerView.Adapter.html#hasStableIds()
         // See https://developer.android.com/reference/android/support/v7/widget/RecyclerView.Adapter.html#getItemId(int)
-        setHasStableIds(true);
+        //setHasStableIds(true);
     }
 
     @Override

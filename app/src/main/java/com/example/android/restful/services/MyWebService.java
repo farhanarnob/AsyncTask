@@ -10,6 +10,7 @@ import retrofit2.http.Query;
 
 /**
  * Created by hp on 1/8/2018.
+ *
  */
 
 public interface MyWebService {

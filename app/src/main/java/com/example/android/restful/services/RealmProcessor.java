@@ -16,7 +16,6 @@ import io.realm.RealmResults;
 
 import static com.example.android.restful.model.DataItemFields.ITEM_NAME;
 import static com.example.android.restful.model.WorkType.INSERT;
-import static com.example.android.restful.model.WorkType.UPDATE;
 
 /**
  * Created by hp on 1/10/2018.
@@ -128,11 +127,10 @@ public class RealmProcessor {
 //
 //        process 3
 //        Another process
-        dataItem.setDescription("Never thought that it is always sweets");
         realm.executeTransaction(new Realm.Transaction() {
             @Override
             public void execute(Realm realm) {
-                realm.insertOrUpdate(dataItem);
+                dataItem.setDescription("Never thought that it is always sweets");
             }
         });
 

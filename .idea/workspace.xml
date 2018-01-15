@@ -17,36 +17,185 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7adfd7de-a30b-41f7-b740-fd95a2094ff1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/24.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/28.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/30.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/compat/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/fragment/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/mediacompat/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/com/android/tools/ir/dummy/slice_0.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/35/com/android/tools/ir/dummy/slice_1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/35/com/example/android/restful/Utilities/HttpHelper.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/35/com/example/android/restful/Utilities/NetworkHelper.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/coreutils/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v4/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$anim.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$attr.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$bool.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$color.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$dimen.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$drawable.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$id.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$integer.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$layout.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$string.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$style.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$styleable.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/android/tools/ir/dummy/slice_2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/example/android/restful/model/DataItem$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/example/android/restful/model/DataItem.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/example/android/restful/model/DataItemFields.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/example/android/restful/model/RequestPackage$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/example/android/restful/model/RequestPackage.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/example/android/restful/model/WorkType.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/graphics/drawable/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/com/android/tools/ir/dummy/slice_3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/com/example/android/restful/services/MyIntentService.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/com/example/android/restful/services/MyWebService.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/com/example/android/restful/services/RealmProcessor$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/com/example/android/restful/services/RealmProcessor$2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/com/example/android/restful/services/RealmProcessor$3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/com/example/android/restful/services/RealmProcessor$4.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/com/example/android/restful/services/RealmProcessor$5.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/com/example/android/restful/services/RealmProcessor.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/io/realm/DataItemRealmProxy$DataItemColumnInfo.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/io/realm/DataItemRealmProxy.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/io/realm/DataItemRealmProxyInterface.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/io/realm/DefaultRealmModule.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/io/realm/DefaultRealmModuleMediator.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/io/realm/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/38/com/android/tools/ir/dummy/slice_4.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/39/com/android/tools/ir/dummy/slice_5.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/39/com/example/android/restful/data/MyAdapterRealmAdapter$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/39/com/example/android/restful/data/MyAdapterRealmAdapter$RecyclerViewClickListener.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/39/com/example/android/restful/data/MyAdapterRealmAdapter$ViewHolder.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/39/com/example/android/restful/data/MyAdapterRealmAdapter.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/39/com/example/android/restful/observer/RealmExecuteDone.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/40/com/android/tools/ir/dummy/slice_6.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/coreui/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$attr.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$dimen.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$id.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$styleable.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/android/tools/ir/dummy/slice_7.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/BuildConfig.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/DetailsViewActivity.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/MainActivity$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/MainActivity$2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/MainActivity.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R$anim.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R$attr.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R$bool.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R$color.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R$dimen.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R$drawable.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R$id.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R$integer.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R$layout.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R$menu.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R$mipmap.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R$string.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R$style.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R$styleable.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/example/android/restful/RealmInitializationApplication.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/getkeepsafe/relinker/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/android/support/graphics/drawable/animated/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/com/android/tools/ir/dummy/slice_8.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/io/realm/android/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/43/android/support/constraint/R$attr.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/43/android/support/constraint/R$id.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/43/android/support/constraint/R$styleable.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/43/android/support/constraint/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/43/com/android/tools/ir/dummy/slice_9.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/1/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/10/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/11/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/12/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/13/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/14/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/15/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/16/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/2/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/3/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/4/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/5/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/6/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/7/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/8/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/9/classes.dex" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/android/restful/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/android/restful/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/android/restful/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/android/restful/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/android/restful/services/MyWebService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/android/restful/services/MyWebService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/android/restful/services/RealmProcessor$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/android/restful/services/RealmProcessor$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/android/restful/services/RealmProcessor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/android/restful/services/RealmProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/android/restful/services/MyWebService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/android/restful/services/MyWebService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/android/restful/services/RealmProcessor$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/android/restful/services/RealmProcessor$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/android/restful/services/RealmProcessor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/android/restful/services/RealmProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/21A4jo82fa4mhyoaQpFY+aopyHU=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/21A4jo82fa4mhyoaQpFY+aopyHU=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/zip-cache/21A4jo82fa4mhyoaQpFY+aopyHU=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/zip-cache/21A4jo82fa4mhyoaQpFY+aopyHU=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/example/android/restful/services/MyWebService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/example/android/restful/services/MyWebService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/example/android/restful/services/RealmProcessor$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/example/android/restful/services/RealmProcessor$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/example/android/restful/services/RealmProcessor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/example/android/restful/services/RealmProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/android/restful/DetailsViewActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/android/restful/DetailsViewActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/android/restful/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/android/restful/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/android/restful/RealmInitializationApplication.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/android/restful/RealmInitializationApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/android/restful/services/MyIntentService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/android/restful/services/MyIntentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/android/restful/services/MyWebService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/android/restful/services/MyWebService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/android/restful/services/RealmProcessor$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/android/restful/services/RealmProcessor$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/android/restful/services/RealmProcessor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/android/restful/services/RealmProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/restful/services/MyIntentService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/restful/services/MyIntentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/restful/services/MyWebService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/restful/services/MyWebService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/restful/services/RealmProcessor$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/restful/services/RealmProcessor$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/restful/services/RealmProcessor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/restful/services/RealmProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/com/example/android/restful/DetailsViewActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/com/example/android/restful/DetailsViewActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/com/example/android/restful/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/com/example/android/restful/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/com/example/android/restful/RealmInitializationApplication.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/com/example/android/restful/RealmInitializationApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifestChecker/manifest.crc" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifestChecker/manifest.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/DetailsViewActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/DetailsViewActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/data/MyAdapterRealmAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/data/MyAdapterRealmAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/model/DataItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/model/DataItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/services/MyWebService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/services/MyWebService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/services/RealmProcessor.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/services/RealmProcessor.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -103,11 +252,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DetailsViewActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/DetailsViewActivity.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="63" column="53" lean-forward="true" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
+            <state relative-caret-position="2533">
+              <caret line="149" column="5" lean-forward="false" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,59 +267,91 @@
       <file leaf-file-name="DataItemRealmProxy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/io/realm/DataItemRealmProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
+            <state relative-caret-position="80">
               <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyAdapterRealmAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/data/MyAdapterRealmAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-              <folding>
-                <element signature="e#2540#2931#0" expanded="true" />
-                <element signature="e#2930#2931#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RealmProcessor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RealmProcessor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/services/RealmProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+            <state relative-caret-position="161">
+              <caret line="134" column="11" lean-forward="false" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
               <folding>
-                <element signature="e#1543#1725#0" expanded="true" />
-                <element signature="e#1724#1725#0" expanded="true" />
-                <element signature="e#3988#4154#0" expanded="true" />
-                <element signature="e#4153#4154#0" expanded="true" />
+                <element signature="e#3848#4049#0" expanded="true" />
+                <element signature="e#4048#4049#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataItem.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyWebService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/services/MyWebService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="48" column="55" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Response.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/76f3c69879d3e01c082f49d8661c5590838148e1/retrofit-2.3.0-sources.jar!/retrofit2/Response.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              <folding>
+                <element signature="e#4218#4219#0" expanded="true" />
+                <element signature="e#4239#4240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Call.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/76f3c69879d3e01c082f49d8661c5590838148e1/retrofit-2.3.0-sources.jar!/retrofit2/Call.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="47" column="7" lean-forward="false" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GsonConverterFactory.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/438355cc604d9c87dedc84fd2c05924e4e6d2ce3/converter-gson-2.3.0-sources.jar!/retrofit2/converter/gson/GsonConverterFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="49" column="49" lean-forward="false" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+              <folding>
+                <element signature="e#1686#1687#0" expanded="true" />
+                <element signature="e#1721#1722#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/model/DataItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="242">
+              <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
               <folding>
+                <element signature="e#973#974#0" expanded="true" />
                 <element signature="e#1019#1020#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="71" column="26" lean-forward="false" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -194,6 +375,7 @@
       <find>9ba61177-730d-44e7-a928-5fc9aa6ecb4a</find>
       <find>0eeceba8-1aea-4989-ac7d-4481ad083fdb</find>
       <find>detailsViewAc</find>
+      <find>myw</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1987,6 +2169,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/data/MyAdapterRealmAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/DetailsViewActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/services/MyWebService.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/restful/services/RealmProcessor.java" />
       </list>
     </option>
@@ -2015,10 +2199,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AsyncTask" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="AsyncTask" />
@@ -2083,81 +2276,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsyncTask" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="restful" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="observer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsyncTask" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="restful" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsyncTask" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="restful" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="device.picker.selection" value="Nexus_5X_API_27" />
+    <property name="device.picker.selection" value="61ec04d6" />
     <property name="VectorAssetImportPath" value="D:\ar_android" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2241,8 +2371,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515921204850" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516012847924" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2289,8 +2418,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515921204852" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516012847924" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2451,8 +2579,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515921204860" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516012847925" />
       </method>
     </configuration>
     <list size="1">
@@ -2514,14 +2641,13 @@
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19809826" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5134707" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3771791" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9318542" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2529,12 +2655,12 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19969743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.093797274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47543582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47543582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2542,40 +2668,41 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4532488" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18383518" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9318542" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47543582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21394612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19969743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -2588,7 +2715,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Details view implemented." />
     <MESSAGE value="Detail view getting data from DataItem's ID" />
-    <option name="LAST_COMMIT_MESSAGE" value="Detail view getting data from DataItem's ID" />
+    <MESSAGE value="realm update's error has been fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="realm update's error has been fixed." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2608,431 +2736,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/services/MyIntentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/data/MyAdapterRealmAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
-          <folding>
-            <element signature="e#2540#2931#0" expanded="true" />
-            <element signature="e#2930#2931#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/services/RealmProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
-          <folding>
-            <element signature="e#1543#1725#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#3988#4154#0" expanded="true" />
-            <element signature="e#4153#4154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="53" column="50" lean-forward="false" selection-start-line="53" selection-start-column="50" selection-end-line="54" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/model/DataItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#450#451#0" expanded="false" />
-            <element signature="e#475#476#0" expanded="false" />
-            <element signature="e#511#512#0" expanded="false" />
-            <element signature="e#539#540#0" expanded="false" />
-            <element signature="e#574#575#0" expanded="false" />
-            <element signature="e#605#606#0" expanded="false" />
-            <element signature="e#653#654#0" expanded="false" />
-            <element signature="e#693#694#0" expanded="false" />
-            <element signature="e#728#729#0" expanded="false" />
-            <element signature="e#759#760#0" expanded="false" />
-            <element signature="e#807#808#0" expanded="false" />
-            <element signature="e#847#848#0" expanded="false" />
-            <element signature="e#885#886#0" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#973#974#0" expanded="false" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="false" />
-            <element signature="e#1074#1075#0" expanded="false" />
-            <element signature="e#1111#1112#0" expanded="false" />
-            <element signature="e#1143#1144#0" expanded="false" />
-            <element signature="e#1175#1176#0" expanded="false" />
-            <element signature="e#1203#1204#0" expanded="false" />
-            <element signature="e#1245#1246#0" expanded="false" />
-            <element signature="e#1279#1280#0" expanded="false" />
-            <element signature="e#1311#1312#0" expanded="false" />
-            <element signature="e#1339#1340#0" expanded="false" />
-            <element signature="e#1381#1382#0" expanded="false" />
-            <element signature="e#1415#1416#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/25.4.0/d927ce819c041d123f0a68dd1f409972cfba51f8/recyclerview-v7-25.4.0-sources.jar!/android/support/v7/widget/RecyclerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27999">
-          <caret line="1647" column="0" lean-forward="false" selection-start-line="1647" selection-start-column="0" selection-end-line="1647" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#553938#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#23365#23366#0" expanded="false" />
-            <element signature="e#23400#23401#0" expanded="false" />
-            <element signature="e#23474#23475#0" expanded="false" />
-            <element signature="e#23513#23514#0" expanded="false" />
-            <element signature="e#30782#30783#0" expanded="false" />
-            <element signature="e#30854#30855#0" expanded="false" />
-            <element signature="e#31343#31344#0" expanded="false" />
-            <element signature="e#31418#31419#0" expanded="false" />
-            <element signature="e#32356#32357#0" expanded="false" />
-            <element signature="e#32431#32432#0" expanded="false" />
-            <element signature="e#33188#33189#0" expanded="false" />
-            <element signature="e#33254#33255#0" expanded="false" />
-            <element signature="e#37153#37154#0" expanded="false" />
-            <element signature="e#37203#37204#0" expanded="false" />
-            <element signature="e#38210#38211#0" expanded="false" />
-            <element signature="e#38260#38261#0" expanded="false" />
-            <element signature="e#39545#39546#0" expanded="false" />
-            <element signature="e#39589#39590#0" expanded="false" />
-            <element signature="e#39777#39778#0" expanded="false" />
-            <element signature="e#39813#39814#0" expanded="false" />
-            <element signature="e#40777#40778#0" expanded="false" />
-            <element signature="e#40814#40815#0" expanded="false" />
-            <element signature="e#46030#46031#0" expanded="false" />
-            <element signature="e#46061#46062#0" expanded="false" />
-            <element signature="e#46592#46593#0" expanded="false" />
-            <element signature="e#46636#46637#0" expanded="false" />
-            <element signature="e#51489#51490#0" expanded="false" />
-            <element signature="e#51528#51529#0" expanded="false" />
-            <element signature="e#54960#54961#0" expanded="false" />
-            <element signature="e#54990#54991#0" expanded="false" />
-            <element signature="e#55450#55451#0" expanded="false" />
-            <element signature="e#55504#55505#0" expanded="false" />
-            <element signature="e#56042#56043#0" expanded="false" />
-            <element signature="e#56093#56094#0" expanded="false" />
-            <element signature="e#57081#57082#0" expanded="false" />
-            <element signature="e#57129#57130#0" expanded="false" />
-            <element signature="e#57365#57366#0" expanded="false" />
-            <element signature="e#57400#57401#0" expanded="false" />
-            <element signature="e#59779#59780#0" expanded="false" />
-            <element signature="e#59823#59824#0" expanded="false" />
-            <element signature="e#61945#61946#0" expanded="false" />
-            <element signature="e#61987#61988#0" expanded="false" />
-            <element signature="e#80637#80638#0" expanded="false" />
-            <element signature="e#80673#80674#0" expanded="false" />
-            <element signature="e#80911#80912#0" expanded="false" />
-            <element signature="e#80955#80956#0" expanded="false" />
-            <element signature="e#84873#84874#0" expanded="false" />
-            <element signature="e#84913#84914#0" expanded="false" />
-            <element signature="e#85115#85116#0" expanded="false" />
-            <element signature="e#85155#85156#0" expanded="false" />
-            <element signature="e#89991#89992#0" expanded="false" />
-            <element signature="e#90061#90062#0" expanded="false" />
-            <element signature="e#104531#104532#0" expanded="false" />
-            <element signature="e#104565#104566#0" expanded="false" />
-            <element signature="e#127844#127845#0" expanded="false" />
-            <element signature="e#127885#127886#0" expanded="false" />
-            <element signature="e#127920#127921#0" expanded="false" />
-            <element signature="e#127962#127963#0" expanded="false" />
-            <element signature="e#130311#130312#0" expanded="false" />
-            <element signature="e#130360#130361#0" expanded="false" />
-            <element signature="e#132071#132072#0" expanded="false" />
-            <element signature="e#132107#132108#0" expanded="false" />
-            <element signature="e#167324#167325#0" expanded="false" />
-            <element signature="e#167397#167398#0" expanded="false" />
-            <element signature="e#175920#175921#0" expanded="false" />
-            <element signature="e#175968#175969#0" expanded="false" />
-            <element signature="e#179198#179199#0" expanded="false" />
-            <element signature="e#179251#179252#0" expanded="false" />
-            <element signature="e#203614#203615#0" expanded="false" />
-            <element signature="e#203666#203667#0" expanded="false" />
-            <element signature="e#214201#214202#0" expanded="false" />
-            <element signature="e#214239#214240#0" expanded="false" />
-            <element signature="e#214264#214265#0" expanded="false" />
-            <element signature="e#214302#214303#0" expanded="false" />
-            <element signature="e#220196#220197#0" expanded="false" />
-            <element signature="e#220253#220254#0" expanded="false" />
-            <element signature="e#228366#228367#0" expanded="false" />
-            <element signature="e#228432#228433#0" expanded="false" />
-            <element signature="e#250714#250715#0" expanded="false" />
-            <element signature="e#250766#250767#0" expanded="false" />
-            <element signature="e#250808#250809#0" expanded="false" />
-            <element signature="e#250873#250874#0" expanded="false" />
-            <element signature="e#274826#274827#0" expanded="false" />
-            <element signature="e#274858#274859#0" expanded="false" />
-            <element signature="e#275963#275964#0" expanded="false" />
-            <element signature="e#275999#276000#0" expanded="false" />
-            <element signature="e#276639#276640#0" expanded="false" />
-            <element signature="e#276683#276684#0" expanded="false" />
-            <element signature="e#280312#280313#0" expanded="false" />
-            <element signature="e#280348#280349#0" expanded="false" />
-            <element signature="e#281655#281656#0" expanded="false" />
-            <element signature="e#281712#281713#0" expanded="false" />
-            <element signature="e#285696#285697#0" expanded="false" />
-            <element signature="e#285747#285748#0" expanded="false" />
-            <element signature="e#297574#297575#0" expanded="false" />
-            <element signature="e#297663#297664#0" expanded="false" />
-            <element signature="e#297740#297741#0" expanded="false" />
-            <element signature="e#297808#297809#0" expanded="false" />
-            <element signature="e#298067#298068#0" expanded="false" />
-            <element signature="e#298157#298158#0" expanded="false" />
-            <element signature="e#299448#299449#0" expanded="false" />
-            <element signature="e#299537#299538#0" expanded="false" />
-            <element signature="e#299614#299615#0" expanded="false" />
-            <element signature="e#299682#299683#0" expanded="false" />
-            <element signature="e#299941#299942#0" expanded="false" />
-            <element signature="e#300030#300031#0" expanded="false" />
-            <element signature="e#316197#316198#0" expanded="false" />
-            <element signature="e#316243#316244#0" expanded="false" />
-            <element signature="e#316620#316621#0" expanded="false" />
-            <element signature="e#316663#316664#0" expanded="false" />
-            <element signature="e#318074#318075#0" expanded="false" />
-            <element signature="e#318110#318111#0" expanded="false" />
-            <element signature="e#319954#319955#0" expanded="false" />
-            <element signature="e#320005#320006#0" expanded="false" />
-            <element signature="e#323533#323534#0" expanded="false" />
-            <element signature="e#323583#323584#0" expanded="false" />
-            <element signature="e#333799#333800#0" expanded="false" />
-            <element signature="e#333840#333841#0" expanded="false" />
-            <element signature="e#336631#336632#0" expanded="false" />
-            <element signature="e#336663#336664#0" expanded="false" />
-            <element signature="e#337533#337534#0" expanded="false" />
-            <element signature="e#337565#337566#0" expanded="false" />
-            <element signature="e#337859#337860#0" expanded="false" />
-            <element signature="e#337895#337896#0" expanded="false" />
-            <element signature="e#338183#338184#0" expanded="false" />
-            <element signature="e#338219#338220#0" expanded="false" />
-            <element signature="e#340673#340674#0" expanded="false" />
-            <element signature="e#340748#340749#0" expanded="false" />
-            <element signature="e#342060#342061#0" expanded="false" />
-            <element signature="e#342114#342115#0" expanded="false" />
-            <element signature="e#343020#343021#0" expanded="false" />
-            <element signature="e#343074#343075#0" expanded="false" />
-            <element signature="e#343414#343415#0" expanded="false" />
-            <element signature="e#343456#343457#0" expanded="false" />
-            <element signature="e#343853#343854#0" expanded="false" />
-            <element signature="e#343908#343909#0" expanded="false" />
-            <element signature="e#347185#347186#0" expanded="false" />
-            <element signature="e#347239#347240#0" expanded="false" />
-            <element signature="e#348632#348633#0" expanded="false" />
-            <element signature="e#348665#348666#0" expanded="false" />
-            <element signature="e#353890#353891#0" expanded="false" />
-            <element signature="e#353958#353959#0" expanded="false" />
-            <element signature="e#356128#356129#0" expanded="false" />
-            <element signature="e#356173#356174#0" expanded="false" />
-            <element signature="e#360341#360342#0" expanded="false" />
-            <element signature="e#360382#360383#0" expanded="false" />
-            <element signature="e#361016#361017#0" expanded="false" />
-            <element signature="e#361058#361059#0" expanded="false" />
-            <element signature="e#361216#361217#0" expanded="false" />
-            <element signature="e#361253#361254#0" expanded="false" />
-            <element signature="e#361414#361415#0" expanded="false" />
-            <element signature="e#361452#361453#0" expanded="false" />
-            <element signature="e#363314#363315#0" expanded="false" />
-            <element signature="e#363395#363396#0" expanded="false" />
-            <element signature="e#363663#363664#0" expanded="false" />
-            <element signature="e#363743#363744#0" expanded="false" />
-            <element signature="e#374348#374349#0" expanded="false" />
-            <element signature="e#374403#374404#0" expanded="false" />
-            <element signature="e#398427#398428#0" expanded="false" />
-            <element signature="e#398462#398463#0" expanded="false" />
-            <element signature="e#414411#414412#0" expanded="false" />
-            <element signature="e#414443#414444#0" expanded="false" />
-            <element signature="e#414998#414999#0" expanded="false" />
-            <element signature="e#415030#415031#0" expanded="false" />
-            <element signature="e#415600#415601#0" expanded="false" />
-            <element signature="e#415632#415633#0" expanded="false" />
-            <element signature="e#416143#416144#0" expanded="false" />
-            <element signature="e#416175#416176#0" expanded="false" />
-            <element signature="e#416722#416723#0" expanded="false" />
-            <element signature="e#416754#416755#0" expanded="false" />
-            <element signature="e#417316#417317#0" expanded="false" />
-            <element signature="e#417348#417349#0" expanded="false" />
-            <element signature="e#418802#418803#0" expanded="false" />
-            <element signature="e#418874#418875#0" expanded="false" />
-            <element signature="e#419014#419015#0" expanded="false" />
-            <element signature="e#419087#419088#0" expanded="false" />
-            <element signature="e#419809#419810#0" expanded="false" />
-            <element signature="e#419844#419845#0" expanded="false" />
-            <element signature="e#428530#428531#0" expanded="false" />
-            <element signature="e#428587#428588#0" expanded="false" />
-            <element signature="e#431927#431928#0" expanded="false" />
-            <element signature="e#431963#431964#0" expanded="false" />
-            <element signature="e#437568#437569#0" expanded="false" />
-            <element signature="e#437604#437605#0" expanded="false" />
-            <element signature="e#439904#439905#0" expanded="false" />
-            <element signature="e#439945#439946#0" expanded="false" />
-            <element signature="e#445720#445721#0" expanded="false" />
-            <element signature="e#445756#445757#0" expanded="false" />
-            <element signature="e#456945#456946#0" expanded="false" />
-            <element signature="e#457003#457004#0" expanded="false" />
-            <element signature="e#461266#461267#0" expanded="false" />
-            <element signature="e#461309#461310#0" expanded="false" />
-            <element signature="e#461555#461556#0" expanded="false" />
-            <element signature="e#461593#461594#0" expanded="false" />
-            <element signature="e#461716#461717#0" expanded="false" />
-            <element signature="e#461760#461761#0" expanded="false" />
-            <element signature="e#461789#461790#0" expanded="false" />
-            <element signature="e#461843#461844#0" expanded="false" />
-            <element signature="e#461869#461870#0" expanded="false" />
-            <element signature="e#461926#461927#0" expanded="false" />
-            <element signature="e#461968#461969#0" expanded="false" />
-            <element signature="e#462039#462040#0" expanded="false" />
-            <element signature="e#462084#462085#0" expanded="false" />
-            <element signature="e#462151#462152#0" expanded="false" />
-            <element signature="e#462188#462189#0" expanded="false" />
-            <element signature="e#462248#462249#0" expanded="false" />
-            <element signature="e#462279#462280#0" expanded="false" />
-            <element signature="e#462333#462334#0" expanded="false" />
-            <element signature="e#462534#462535#0" expanded="false" />
-            <element signature="e#462593#462594#0" expanded="false" />
-            <element signature="e#462626#462627#0" expanded="false" />
-            <element signature="e#462684#462685#0" expanded="false" />
-            <element signature="e#462713#462714#0" expanded="false" />
-            <element signature="e#462770#462771#0" expanded="false" />
-            <element signature="e#462801#462802#0" expanded="false" />
-            <element signature="e#462860#462861#0" expanded="false" />
-            <element signature="e#462907#462908#0" expanded="false" />
-            <element signature="e#462959#462960#0" expanded="false" />
-            <element signature="e#462994#462995#0" expanded="false" />
-            <element signature="e#463058#463059#0" expanded="false" />
-            <element signature="e#463241#463242#0" expanded="false" />
-            <element signature="e#463307#463308#0" expanded="false" />
-            <element signature="e#463343#463344#0" expanded="false" />
-            <element signature="e#463382#463383#0" expanded="false" />
-            <element signature="e#469488#469489#0" expanded="false" />
-            <element signature="e#469554#469555#0" expanded="false" />
-            <element signature="e#469942#469943#0" expanded="false" />
-            <element signature="e#470000#470001#0" expanded="false" />
-            <element signature="e#472345#472346#0" expanded="false" />
-            <element signature="e#472405#472406#0" expanded="false" />
-            <element signature="e#474383#474384#0" expanded="false" />
-            <element signature="e#474422#474423#0" expanded="false" />
-            <element signature="e#474476#474477#0" expanded="false" />
-            <element signature="e#474520#474521#0" expanded="false" />
-            <element signature="e#474578#474579#0" expanded="false" />
-            <element signature="e#474615#474616#0" expanded="false" />
-            <element signature="e#474677#474678#0" expanded="false" />
-            <element signature="e#474714#474715#0" expanded="false" />
-            <element signature="e#474766#474767#0" expanded="false" />
-            <element signature="e#474828#474829#0" expanded="false" />
-            <element signature="e#475121#475122#0" expanded="false" />
-            <element signature="e#475177#475178#0" expanded="false" />
-            <element signature="e#475468#475469#0" expanded="false" />
-            <element signature="e#475522#475523#0" expanded="false" />
-            <element signature="e#475962#475963#0" expanded="false" />
-            <element signature="e#476016#476017#0" expanded="false" />
-            <element signature="e#476436#476437#0" expanded="false" />
-            <element signature="e#476490#476491#0" expanded="false" />
-            <element signature="e#476671#476672#0" expanded="false" />
-            <element signature="e#476727#476728#0" expanded="false" />
-            <element signature="e#477029#477030#0" expanded="false" />
-            <element signature="e#477091#477092#0" expanded="false" />
-            <element signature="e#477528#477529#0" expanded="false" />
-            <element signature="e#477591#477592#0" expanded="false" />
-            <element signature="e#479262#479263#0" expanded="false" />
-            <element signature="e#479321#479322#0" expanded="false" />
-            <element signature="e#480709#480710#0" expanded="false" />
-            <element signature="e#480765#480766#0" expanded="false" />
-            <element signature="e#481015#481016#0" expanded="false" />
-            <element signature="e#481060#481061#0" expanded="false" />
-            <element signature="e#482334#482335#0" expanded="false" />
-            <element signature="e#482383#482384#0" expanded="false" />
-            <element signature="e#482508#482509#0" expanded="false" />
-            <element signature="e#482547#482548#0" expanded="false" />
-            <element signature="e#482811#482812#0" expanded="false" />
-            <element signature="e#482857#482858#0" expanded="false" />
-            <element signature="e#484644#484645#0" expanded="false" />
-            <element signature="e#484712#484713#0" expanded="false" />
-            <element signature="e#488560#488561#0" expanded="false" />
-            <element signature="e#488630#488631#0" expanded="false" />
-            <element signature="e#488914#488915#0" expanded="false" />
-            <element signature="e#488974#488975#0" expanded="false" />
-            <element signature="e#490543#490544#0" expanded="false" />
-            <element signature="e#490607#490608#0" expanded="false" />
-            <element signature="e#490646#490647#0" expanded="false" />
-            <element signature="e#490705#490706#0" expanded="false" />
-            <element signature="e#492696#492697#0" expanded="false" />
-            <element signature="e#492738#492739#0" expanded="false" />
-            <element signature="e#492885#492886#0" expanded="false" />
-            <element signature="e#492927#492928#0" expanded="false" />
-            <element signature="e#493080#493081#0" expanded="false" />
-            <element signature="e#493128#493129#0" expanded="false" />
-            <element signature="e#493318#493319#0" expanded="false" />
-            <element signature="e#493370#493371#0" expanded="false" />
-            <element signature="e#495806#495807#0" expanded="false" />
-            <element signature="e#495858#495859#0" expanded="false" />
-            <element signature="e#499206#499207#0" expanded="false" />
-            <element signature="e#499247#499248#0" expanded="false" />
-            <element signature="e#499476#499477#0" expanded="false" />
-            <element signature="e#499533#499534#0" expanded="false" />
-            <element signature="e#499981#499982#0" expanded="false" />
-            <element signature="e#500056#500057#0" expanded="false" />
-            <element signature="e#505718#505719#0" expanded="false" />
-            <element signature="e#505761#505762#0" expanded="false" />
-            <element signature="e#505871#505872#0" expanded="false" />
-            <element signature="e#505914#505915#0" expanded="false" />
-            <element signature="e#506252#506253#0" expanded="false" />
-            <element signature="e#506307#506308#0" expanded="false" />
-            <element signature="e#506633#506634#0" expanded="false" />
-            <element signature="e#506684#506685#0" expanded="false" />
-            <element signature="e#508657#508658#0" expanded="false" />
-            <element signature="e#508703#508704#0" expanded="false" />
-            <element signature="e#509260#509261#0" expanded="false" />
-            <element signature="e#509308#509309#0" expanded="false" />
-            <element signature="e#518185#518186#0" expanded="false" />
-            <element signature="e#518229#518230#0" expanded="false" />
-            <element signature="e#518440#518441#0" expanded="false" />
-            <element signature="e#518492#518493#0" expanded="false" />
-            <element signature="e#518687#518688#0" expanded="false" />
-            <element signature="e#518730#518731#0" expanded="false" />
-            <element signature="e#518936#518937#0" expanded="false" />
-            <element signature="e#518986#518987#0" expanded="false" />
-            <element signature="e#519190#519191#0" expanded="false" />
-            <element signature="e#519236#519237#0" expanded="false" />
-            <element signature="e#519457#519458#0" expanded="false" />
-            <element signature="e#519513#519514#0" expanded="false" />
-            <element signature="e#519717#519718#0" expanded="false" />
-            <element signature="e#519763#519764#0" expanded="false" />
-            <element signature="e#519984#519985#0" expanded="false" />
-            <element signature="e#520040#520041#0" expanded="false" />
-            <element signature="e#520454#520455#0" expanded="false" />
-            <element signature="e#520498#520499#0" expanded="false" />
-            <element signature="e#545588#545589#0" expanded="false" />
-            <element signature="e#545623#545624#0" expanded="false" />
-            <element signature="e#548440#548441#0" expanded="false" />
-            <element signature="e#548491#548492#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/DetailsViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -3047,7 +2750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22542">
           <caret line="1403" column="0" lean-forward="false" selection-start-line="1403" selection-start-column="0" selection-end-line="1403" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3055,10 +2757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="e#2540#2931#0" expanded="true" />
-            <element signature="e#2930#2931#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3067,10 +2765,8 @@
         <state relative-caret-position="1309">
           <caret line="103" column="11" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
           <folding>
-            <element signature="e#1543#1725#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#3988#4154#0" expanded="true" />
-            <element signature="e#4153#4154#0" expanded="true" />
+            <element signature="e#3848#4049#0" expanded="true" />
+            <element signature="e#4048#4049#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3089,7 +2785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23851">
           <caret line="1403" column="0" lean-forward="false" selection-start-line="1403" selection-start-column="0" selection-end-line="1403" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3097,10 +2792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="e#2540#2931#0" expanded="true" />
-            <element signature="e#2930#2931#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3109,10 +2800,8 @@
         <state relative-caret-position="1479">
           <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="2" selection-end-line="113" selection-end-column="48" />
           <folding>
-            <element signature="e#1543#1725#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#3988#4154#0" expanded="true" />
-            <element signature="e#4153#4154#0" expanded="true" />
+            <element signature="e#3848#4049#0" expanded="true" />
+            <element signature="e#4048#4049#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3131,10 +2820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#2540#2931#0" expanded="true" />
-            <element signature="e#2930#2931#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3143,10 +2828,8 @@
         <state relative-caret-position="1530">
           <caret line="116" column="48" lean-forward="false" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
           <folding>
-            <element signature="e#1543#1725#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#3988#4154#0" expanded="true" />
-            <element signature="e#4153#4154#0" expanded="true" />
+            <element signature="e#3848#4049#0" expanded="true" />
+            <element signature="e#4048#4049#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3189,14 +2872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/services/MyWebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -3211,7 +2886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3233,336 +2907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25993">
           <caret line="1647" column="0" lean-forward="false" selection-start-line="1647" selection-start-column="0" selection-end-line="1647" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#553938#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#23365#23366#0" expanded="false" />
-            <element signature="e#23400#23401#0" expanded="false" />
-            <element signature="e#23474#23475#0" expanded="false" />
-            <element signature="e#23513#23514#0" expanded="false" />
-            <element signature="e#30782#30783#0" expanded="false" />
-            <element signature="e#30854#30855#0" expanded="false" />
-            <element signature="e#31343#31344#0" expanded="false" />
-            <element signature="e#31418#31419#0" expanded="false" />
-            <element signature="e#32356#32357#0" expanded="false" />
-            <element signature="e#32431#32432#0" expanded="false" />
-            <element signature="e#33188#33189#0" expanded="false" />
-            <element signature="e#33254#33255#0" expanded="false" />
-            <element signature="e#37153#37154#0" expanded="false" />
-            <element signature="e#37203#37204#0" expanded="false" />
-            <element signature="e#38210#38211#0" expanded="false" />
-            <element signature="e#38260#38261#0" expanded="false" />
-            <element signature="e#39545#39546#0" expanded="false" />
-            <element signature="e#39589#39590#0" expanded="false" />
-            <element signature="e#39777#39778#0" expanded="false" />
-            <element signature="e#39813#39814#0" expanded="false" />
-            <element signature="e#40777#40778#0" expanded="false" />
-            <element signature="e#40814#40815#0" expanded="false" />
-            <element signature="e#46030#46031#0" expanded="false" />
-            <element signature="e#46061#46062#0" expanded="false" />
-            <element signature="e#46592#46593#0" expanded="false" />
-            <element signature="e#46636#46637#0" expanded="false" />
-            <element signature="e#51489#51490#0" expanded="false" />
-            <element signature="e#51528#51529#0" expanded="false" />
-            <element signature="e#54960#54961#0" expanded="false" />
-            <element signature="e#54990#54991#0" expanded="false" />
-            <element signature="e#55450#55451#0" expanded="false" />
-            <element signature="e#55504#55505#0" expanded="false" />
-            <element signature="e#56042#56043#0" expanded="false" />
-            <element signature="e#56093#56094#0" expanded="false" />
-            <element signature="e#57081#57082#0" expanded="false" />
-            <element signature="e#57129#57130#0" expanded="false" />
-            <element signature="e#57365#57366#0" expanded="false" />
-            <element signature="e#57400#57401#0" expanded="false" />
-            <element signature="e#59779#59780#0" expanded="false" />
-            <element signature="e#59823#59824#0" expanded="false" />
-            <element signature="e#61945#61946#0" expanded="false" />
-            <element signature="e#61987#61988#0" expanded="false" />
-            <element signature="e#80637#80638#0" expanded="false" />
-            <element signature="e#80673#80674#0" expanded="false" />
-            <element signature="e#80911#80912#0" expanded="false" />
-            <element signature="e#80955#80956#0" expanded="false" />
-            <element signature="e#84873#84874#0" expanded="false" />
-            <element signature="e#84913#84914#0" expanded="false" />
-            <element signature="e#85115#85116#0" expanded="false" />
-            <element signature="e#85155#85156#0" expanded="false" />
-            <element signature="e#89991#89992#0" expanded="false" />
-            <element signature="e#90061#90062#0" expanded="false" />
-            <element signature="e#104531#104532#0" expanded="false" />
-            <element signature="e#104565#104566#0" expanded="false" />
-            <element signature="e#127844#127845#0" expanded="false" />
-            <element signature="e#127885#127886#0" expanded="false" />
-            <element signature="e#127920#127921#0" expanded="false" />
-            <element signature="e#127962#127963#0" expanded="false" />
-            <element signature="e#130311#130312#0" expanded="false" />
-            <element signature="e#130360#130361#0" expanded="false" />
-            <element signature="e#132071#132072#0" expanded="false" />
-            <element signature="e#132107#132108#0" expanded="false" />
-            <element signature="e#167324#167325#0" expanded="false" />
-            <element signature="e#167397#167398#0" expanded="false" />
-            <element signature="e#175920#175921#0" expanded="false" />
-            <element signature="e#175968#175969#0" expanded="false" />
-            <element signature="e#179198#179199#0" expanded="false" />
-            <element signature="e#179251#179252#0" expanded="false" />
-            <element signature="e#203614#203615#0" expanded="false" />
-            <element signature="e#203666#203667#0" expanded="false" />
-            <element signature="e#214201#214202#0" expanded="false" />
-            <element signature="e#214239#214240#0" expanded="false" />
-            <element signature="e#214264#214265#0" expanded="false" />
-            <element signature="e#214302#214303#0" expanded="false" />
-            <element signature="e#220196#220197#0" expanded="false" />
-            <element signature="e#220253#220254#0" expanded="false" />
-            <element signature="e#228366#228367#0" expanded="false" />
-            <element signature="e#228432#228433#0" expanded="false" />
-            <element signature="e#250714#250715#0" expanded="false" />
-            <element signature="e#250766#250767#0" expanded="false" />
-            <element signature="e#250808#250809#0" expanded="false" />
-            <element signature="e#250873#250874#0" expanded="false" />
-            <element signature="e#274826#274827#0" expanded="false" />
-            <element signature="e#274858#274859#0" expanded="false" />
-            <element signature="e#275963#275964#0" expanded="false" />
-            <element signature="e#275999#276000#0" expanded="false" />
-            <element signature="e#276639#276640#0" expanded="false" />
-            <element signature="e#276683#276684#0" expanded="false" />
-            <element signature="e#280312#280313#0" expanded="false" />
-            <element signature="e#280348#280349#0" expanded="false" />
-            <element signature="e#281655#281656#0" expanded="false" />
-            <element signature="e#281712#281713#0" expanded="false" />
-            <element signature="e#285696#285697#0" expanded="false" />
-            <element signature="e#285747#285748#0" expanded="false" />
-            <element signature="e#297574#297575#0" expanded="false" />
-            <element signature="e#297663#297664#0" expanded="false" />
-            <element signature="e#297740#297741#0" expanded="false" />
-            <element signature="e#297808#297809#0" expanded="false" />
-            <element signature="e#298067#298068#0" expanded="false" />
-            <element signature="e#298157#298158#0" expanded="false" />
-            <element signature="e#299448#299449#0" expanded="false" />
-            <element signature="e#299537#299538#0" expanded="false" />
-            <element signature="e#299614#299615#0" expanded="false" />
-            <element signature="e#299682#299683#0" expanded="false" />
-            <element signature="e#299941#299942#0" expanded="false" />
-            <element signature="e#300030#300031#0" expanded="false" />
-            <element signature="e#316197#316198#0" expanded="false" />
-            <element signature="e#316243#316244#0" expanded="false" />
-            <element signature="e#316620#316621#0" expanded="false" />
-            <element signature="e#316663#316664#0" expanded="false" />
-            <element signature="e#318074#318075#0" expanded="false" />
-            <element signature="e#318110#318111#0" expanded="false" />
-            <element signature="e#319954#319955#0" expanded="false" />
-            <element signature="e#320005#320006#0" expanded="false" />
-            <element signature="e#323533#323534#0" expanded="false" />
-            <element signature="e#323583#323584#0" expanded="false" />
-            <element signature="e#333799#333800#0" expanded="false" />
-            <element signature="e#333840#333841#0" expanded="false" />
-            <element signature="e#336631#336632#0" expanded="false" />
-            <element signature="e#336663#336664#0" expanded="false" />
-            <element signature="e#337533#337534#0" expanded="false" />
-            <element signature="e#337565#337566#0" expanded="false" />
-            <element signature="e#337859#337860#0" expanded="false" />
-            <element signature="e#337895#337896#0" expanded="false" />
-            <element signature="e#338183#338184#0" expanded="false" />
-            <element signature="e#338219#338220#0" expanded="false" />
-            <element signature="e#340673#340674#0" expanded="false" />
-            <element signature="e#340748#340749#0" expanded="false" />
-            <element signature="e#342060#342061#0" expanded="false" />
-            <element signature="e#342114#342115#0" expanded="false" />
-            <element signature="e#343020#343021#0" expanded="false" />
-            <element signature="e#343074#343075#0" expanded="false" />
-            <element signature="e#343414#343415#0" expanded="false" />
-            <element signature="e#343456#343457#0" expanded="false" />
-            <element signature="e#343853#343854#0" expanded="false" />
-            <element signature="e#343908#343909#0" expanded="false" />
-            <element signature="e#347185#347186#0" expanded="false" />
-            <element signature="e#347239#347240#0" expanded="false" />
-            <element signature="e#348632#348633#0" expanded="false" />
-            <element signature="e#348665#348666#0" expanded="false" />
-            <element signature="e#353890#353891#0" expanded="false" />
-            <element signature="e#353958#353959#0" expanded="false" />
-            <element signature="e#356128#356129#0" expanded="false" />
-            <element signature="e#356173#356174#0" expanded="false" />
-            <element signature="e#360341#360342#0" expanded="false" />
-            <element signature="e#360382#360383#0" expanded="false" />
-            <element signature="e#361016#361017#0" expanded="false" />
-            <element signature="e#361058#361059#0" expanded="false" />
-            <element signature="e#361216#361217#0" expanded="false" />
-            <element signature="e#361253#361254#0" expanded="false" />
-            <element signature="e#361414#361415#0" expanded="false" />
-            <element signature="e#361452#361453#0" expanded="false" />
-            <element signature="e#363314#363315#0" expanded="false" />
-            <element signature="e#363395#363396#0" expanded="false" />
-            <element signature="e#363663#363664#0" expanded="false" />
-            <element signature="e#363743#363744#0" expanded="false" />
-            <element signature="e#374348#374349#0" expanded="false" />
-            <element signature="e#374403#374404#0" expanded="false" />
-            <element signature="e#398427#398428#0" expanded="false" />
-            <element signature="e#398462#398463#0" expanded="false" />
-            <element signature="e#414411#414412#0" expanded="false" />
-            <element signature="e#414443#414444#0" expanded="false" />
-            <element signature="e#414998#414999#0" expanded="false" />
-            <element signature="e#415030#415031#0" expanded="false" />
-            <element signature="e#415600#415601#0" expanded="false" />
-            <element signature="e#415632#415633#0" expanded="false" />
-            <element signature="e#416143#416144#0" expanded="false" />
-            <element signature="e#416175#416176#0" expanded="false" />
-            <element signature="e#416722#416723#0" expanded="false" />
-            <element signature="e#416754#416755#0" expanded="false" />
-            <element signature="e#417316#417317#0" expanded="false" />
-            <element signature="e#417348#417349#0" expanded="false" />
-            <element signature="e#418802#418803#0" expanded="false" />
-            <element signature="e#418874#418875#0" expanded="false" />
-            <element signature="e#419014#419015#0" expanded="false" />
-            <element signature="e#419087#419088#0" expanded="false" />
-            <element signature="e#419809#419810#0" expanded="false" />
-            <element signature="e#419844#419845#0" expanded="false" />
-            <element signature="e#428530#428531#0" expanded="false" />
-            <element signature="e#428587#428588#0" expanded="false" />
-            <element signature="e#431927#431928#0" expanded="false" />
-            <element signature="e#431963#431964#0" expanded="false" />
-            <element signature="e#437568#437569#0" expanded="false" />
-            <element signature="e#437604#437605#0" expanded="false" />
-            <element signature="e#439904#439905#0" expanded="false" />
-            <element signature="e#439945#439946#0" expanded="false" />
-            <element signature="e#445720#445721#0" expanded="false" />
-            <element signature="e#445756#445757#0" expanded="false" />
-            <element signature="e#456945#456946#0" expanded="false" />
-            <element signature="e#457003#457004#0" expanded="false" />
-            <element signature="e#461266#461267#0" expanded="false" />
-            <element signature="e#461309#461310#0" expanded="false" />
-            <element signature="e#461555#461556#0" expanded="false" />
-            <element signature="e#461593#461594#0" expanded="false" />
-            <element signature="e#461716#461717#0" expanded="false" />
-            <element signature="e#461760#461761#0" expanded="false" />
-            <element signature="e#461789#461790#0" expanded="false" />
-            <element signature="e#461843#461844#0" expanded="false" />
-            <element signature="e#461869#461870#0" expanded="false" />
-            <element signature="e#461926#461927#0" expanded="false" />
-            <element signature="e#461968#461969#0" expanded="false" />
-            <element signature="e#462039#462040#0" expanded="false" />
-            <element signature="e#462084#462085#0" expanded="false" />
-            <element signature="e#462151#462152#0" expanded="false" />
-            <element signature="e#462188#462189#0" expanded="false" />
-            <element signature="e#462248#462249#0" expanded="false" />
-            <element signature="e#462279#462280#0" expanded="false" />
-            <element signature="e#462333#462334#0" expanded="false" />
-            <element signature="e#462534#462535#0" expanded="false" />
-            <element signature="e#462593#462594#0" expanded="false" />
-            <element signature="e#462626#462627#0" expanded="false" />
-            <element signature="e#462684#462685#0" expanded="false" />
-            <element signature="e#462713#462714#0" expanded="false" />
-            <element signature="e#462770#462771#0" expanded="false" />
-            <element signature="e#462801#462802#0" expanded="false" />
-            <element signature="e#462860#462861#0" expanded="false" />
-            <element signature="e#462907#462908#0" expanded="false" />
-            <element signature="e#462959#462960#0" expanded="false" />
-            <element signature="e#462994#462995#0" expanded="false" />
-            <element signature="e#463058#463059#0" expanded="false" />
-            <element signature="e#463241#463242#0" expanded="false" />
-            <element signature="e#463307#463308#0" expanded="false" />
-            <element signature="e#463343#463344#0" expanded="false" />
-            <element signature="e#463382#463383#0" expanded="false" />
-            <element signature="e#469488#469489#0" expanded="false" />
-            <element signature="e#469554#469555#0" expanded="false" />
-            <element signature="e#469942#469943#0" expanded="false" />
-            <element signature="e#470000#470001#0" expanded="false" />
-            <element signature="e#472345#472346#0" expanded="false" />
-            <element signature="e#472405#472406#0" expanded="false" />
-            <element signature="e#474383#474384#0" expanded="false" />
-            <element signature="e#474422#474423#0" expanded="false" />
-            <element signature="e#474476#474477#0" expanded="false" />
-            <element signature="e#474520#474521#0" expanded="false" />
-            <element signature="e#474578#474579#0" expanded="false" />
-            <element signature="e#474615#474616#0" expanded="false" />
-            <element signature="e#474677#474678#0" expanded="false" />
-            <element signature="e#474714#474715#0" expanded="false" />
-            <element signature="e#474766#474767#0" expanded="false" />
-            <element signature="e#474828#474829#0" expanded="false" />
-            <element signature="e#475121#475122#0" expanded="false" />
-            <element signature="e#475177#475178#0" expanded="false" />
-            <element signature="e#475468#475469#0" expanded="false" />
-            <element signature="e#475522#475523#0" expanded="false" />
-            <element signature="e#475962#475963#0" expanded="false" />
-            <element signature="e#476016#476017#0" expanded="false" />
-            <element signature="e#476436#476437#0" expanded="false" />
-            <element signature="e#476490#476491#0" expanded="false" />
-            <element signature="e#476671#476672#0" expanded="false" />
-            <element signature="e#476727#476728#0" expanded="false" />
-            <element signature="e#477029#477030#0" expanded="false" />
-            <element signature="e#477091#477092#0" expanded="false" />
-            <element signature="e#477528#477529#0" expanded="false" />
-            <element signature="e#477591#477592#0" expanded="false" />
-            <element signature="e#479262#479263#0" expanded="false" />
-            <element signature="e#479321#479322#0" expanded="false" />
-            <element signature="e#480709#480710#0" expanded="false" />
-            <element signature="e#480765#480766#0" expanded="false" />
-            <element signature="e#481015#481016#0" expanded="false" />
-            <element signature="e#481060#481061#0" expanded="false" />
-            <element signature="e#482334#482335#0" expanded="false" />
-            <element signature="e#482383#482384#0" expanded="false" />
-            <element signature="e#482508#482509#0" expanded="false" />
-            <element signature="e#482547#482548#0" expanded="false" />
-            <element signature="e#482811#482812#0" expanded="false" />
-            <element signature="e#482857#482858#0" expanded="false" />
-            <element signature="e#484644#484645#0" expanded="false" />
-            <element signature="e#484712#484713#0" expanded="false" />
-            <element signature="e#488560#488561#0" expanded="false" />
-            <element signature="e#488630#488631#0" expanded="false" />
-            <element signature="e#488914#488915#0" expanded="false" />
-            <element signature="e#488974#488975#0" expanded="false" />
-            <element signature="e#490543#490544#0" expanded="false" />
-            <element signature="e#490607#490608#0" expanded="false" />
-            <element signature="e#490646#490647#0" expanded="false" />
-            <element signature="e#490705#490706#0" expanded="false" />
-            <element signature="e#492696#492697#0" expanded="false" />
-            <element signature="e#492738#492739#0" expanded="false" />
-            <element signature="e#492885#492886#0" expanded="false" />
-            <element signature="e#492927#492928#0" expanded="false" />
-            <element signature="e#493080#493081#0" expanded="false" />
-            <element signature="e#493128#493129#0" expanded="false" />
-            <element signature="e#493318#493319#0" expanded="false" />
-            <element signature="e#493370#493371#0" expanded="false" />
-            <element signature="e#495806#495807#0" expanded="false" />
-            <element signature="e#495858#495859#0" expanded="false" />
-            <element signature="e#499206#499207#0" expanded="false" />
-            <element signature="e#499247#499248#0" expanded="false" />
-            <element signature="e#499476#499477#0" expanded="false" />
-            <element signature="e#499533#499534#0" expanded="false" />
-            <element signature="e#499981#499982#0" expanded="false" />
-            <element signature="e#500056#500057#0" expanded="false" />
-            <element signature="e#505718#505719#0" expanded="false" />
-            <element signature="e#505761#505762#0" expanded="false" />
-            <element signature="e#505871#505872#0" expanded="false" />
-            <element signature="e#505914#505915#0" expanded="false" />
-            <element signature="e#506252#506253#0" expanded="false" />
-            <element signature="e#506307#506308#0" expanded="false" />
-            <element signature="e#506633#506634#0" expanded="false" />
-            <element signature="e#506684#506685#0" expanded="false" />
-            <element signature="e#508657#508658#0" expanded="false" />
-            <element signature="e#508703#508704#0" expanded="false" />
-            <element signature="e#509260#509261#0" expanded="false" />
-            <element signature="e#509308#509309#0" expanded="false" />
-            <element signature="e#518185#518186#0" expanded="false" />
-            <element signature="e#518229#518230#0" expanded="false" />
-            <element signature="e#518440#518441#0" expanded="false" />
-            <element signature="e#518492#518493#0" expanded="false" />
-            <element signature="e#518687#518688#0" expanded="false" />
-            <element signature="e#518730#518731#0" expanded="false" />
-            <element signature="e#518936#518937#0" expanded="false" />
-            <element signature="e#518986#518987#0" expanded="false" />
-            <element signature="e#519190#519191#0" expanded="false" />
-            <element signature="e#519236#519237#0" expanded="false" />
-            <element signature="e#519457#519458#0" expanded="false" />
-            <element signature="e#519513#519514#0" expanded="false" />
-            <element signature="e#519717#519718#0" expanded="false" />
-            <element signature="e#519763#519764#0" expanded="false" />
-            <element signature="e#519984#519985#0" expanded="false" />
-            <element signature="e#520040#520041#0" expanded="false" />
-            <element signature="e#520454#520455#0" expanded="false" />
-            <element signature="e#520498#520499#0" expanded="false" />
-            <element signature="e#545588#545589#0" expanded="false" />
-            <element signature="e#545623#545624#0" expanded="false" />
-            <element signature="e#548440#548441#0" expanded="false" />
-            <element signature="e#548491#548492#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3570,10 +2914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding>
-            <element signature="e#4519#4520#0" expanded="false" />
-            <element signature="e#4552#4553#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3581,12 +2921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="195" column="0" lean-forward="true" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-          <folding>
-            <element signature="e#6923#6924#0" expanded="false" />
-            <element signature="e#6963#6964#0" expanded="false" />
-            <element signature="e#7748#7749#0" expanded="false" />
-            <element signature="e#7782#7783#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3594,11 +2928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="2669" column="0" lean-forward="false" selection-start-line="2669" selection-start-column="0" selection-end-line="2669" selection-end-column="0" />
-          <folding>
-            <element signature="e#109520#109532#0" expanded="false" />
-            <element signature="e#109715#109716#0" expanded="false" />
-            <element signature="e#109766#109767#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3606,7 +2935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="1114" column="0" lean-forward="false" selection-start-line="1114" selection-start-column="0" selection-end-line="1114" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3618,21 +2946,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/4.3.1/7c1a2f7dccec1d2ca551f12b3d172251f8d7441f/realm-android-library-4.3.1-sources.jar!/io/realm/internal/TableQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3640,7 +2967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3648,7 +2974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="1329" column="40" lean-forward="true" selection-start-line="1329" selection-start-column="40" selection-end-line="1329" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3667,7 +2992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3678,7 +3002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3686,15 +3009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="71" column="26" lean-forward="false" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3702,47 +3016,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/services/RealmProcessor.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/model/RequestPackage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-          <folding>
-            <element signature="e#1543#1725#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#3988#4154#0" expanded="true" />
-            <element signature="e#4153#4154#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/data/MyAdapterRealmAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#2540#2931#0" expanded="true" />
-            <element signature="e#2930#2931#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="303">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/DetailsViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="63" column="53" lean-forward="true" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
+        <state relative-caret-position="986">
+          <caret line="58" column="43" lean-forward="false" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/438355cc604d9c87dedc84fd2c05924e4e6d2ce3/converter-gson-2.3.0-sources.jar!/retrofit2/converter/gson/GsonConverterFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="49" column="49" lean-forward="false" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+          <folding>
+            <element signature="e#1686#1687#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/76f3c69879d3e01c082f49d8661c5590838148e1/retrofit-2.3.0-sources.jar!/retrofit2/Call.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" column="7" lean-forward="false" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2533">
+          <caret line="149" column="5" lean-forward="false" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/76f3c69879d3e01c082f49d8661c5590838148e1/retrofit-2.3.0-sources.jar!/retrofit2/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#4218#4219#0" expanded="true" />
+            <element signature="e#4239#4240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="48" column="55" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/RealmInitializationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk">
+      <provider selected="true" editor-type-id="apk-viewer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/services/MyWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/io/realm/DataItemRealmProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
+        <state relative-caret-position="80">
           <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
           <folding />
         </state>
@@ -3750,10 +3122,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/model/DataItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
           <folding>
+            <element signature="e#973#974#0" expanded="true" />
             <element signature="e#1019#1020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/restful/services/RealmProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="134" column="11" lean-forward="false" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
+          <folding>
+            <element signature="e#3848#4049#0" expanded="true" />
+            <element signature="e#4048#4049#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -10,6 +10,10 @@ import io.realm.RealmConfiguration;
  */
 
 public class RealmInitializationApplication extends Application {
+
+    // Schema version was 1 previously. new version is 2.
+    public static final int SCHEMA_VERSION = 2;
+
     @Override
     public void onCreate() {
         super.onCreate();
@@ -17,9 +21,9 @@ public class RealmInitializationApplication extends Application {
 
         RealmConfiguration configuration = new RealmConfiguration.Builder()
                 .name("saving_zone.realm")
-                .deleteRealmIfMigrationNeeded()
+                .schemaVersion(SCHEMA_VERSION)
+                .migration(new MyMygration())
                 .build();
-        Realm.deleteRealm(configuration);
         Realm.setDefaultConfiguration(configuration);
     }
 }

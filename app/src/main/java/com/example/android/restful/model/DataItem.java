@@ -1,8 +1,5 @@
 package com.example.android.restful.model;
 
-import android.os.Parcel;
-import android.os.Parcelable;
-
 import java.util.UUID;
 
 import io.realm.RealmObject;
@@ -15,6 +12,7 @@ public class DataItem extends RealmObject  {
     private int sort;
     private double price;
     private String image;
+    private Integer starStatus;
 
     public String getId() {
         return id;

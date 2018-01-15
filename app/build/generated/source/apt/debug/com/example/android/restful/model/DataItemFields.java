@@ -19,4 +19,6 @@ public final class DataItemFields {
   public static final String PRICE = "price";
 
   public static final String SORT = "sort";
+
+  public static final String STAR_STATUS = "starStatus";
 }

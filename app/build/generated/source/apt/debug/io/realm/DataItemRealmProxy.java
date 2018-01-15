@@ -42,9 +42,10 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
         long sortIndex;
         long priceIndex;
         long imageIndex;
+        long starStatusIndex;
 
         DataItemColumnInfo(OsSchemaInfo schemaInfo) {
-            super(7);
+            super(8);
             OsObjectSchemaInfo objectSchemaInfo = schemaInfo.getObjectSchemaInfo("DataItem");
             this.idIndex = addColumnDetails("id", objectSchemaInfo);
             this.itemNameIndex = addColumnDetails("itemName", objectSchemaInfo);
@@ -53,6 +54,7 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
             this.sortIndex = addColumnDetails("sort", objectSchemaInfo);
             this.priceIndex = addColumnDetails("price", objectSchemaInfo);
             this.imageIndex = addColumnDetails("image", objectSchemaInfo);
+            this.starStatusIndex = addColumnDetails("starStatus", objectSchemaInfo);
         }
 
         DataItemColumnInfo(ColumnInfo src, boolean mutable) {
@@ -76,13 +78,14 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
             dst.sortIndex = src.sortIndex;
             dst.priceIndex = src.priceIndex;
             dst.imageIndex = src.imageIndex;
+            dst.starStatusIndex = src.starStatusIndex;
         }
     }
 
     private static final OsObjectSchemaInfo expectedObjectSchemaInfo = createExpectedObjectSchemaInfo();
     private static final List<String> FIELD_NAMES;
     static {
-        List<String> fieldNames = new ArrayList<String>(7);
+        List<String> fieldNames = new ArrayList<String>(8);
         fieldNames.add("id");
         fieldNames.add("itemName");
         fieldNames.add("category");
@@ -90,6 +93,7 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
         fieldNames.add("sort");
         fieldNames.add("price");
         fieldNames.add("image");
+        fieldNames.add("starStatus");
         FIELD_NAMES = Collections.unmodifiableList(fieldNames);
     }
 
@@ -308,8 +312,41 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
         proxyState.getRow$realm().setString(columnInfo.imageIndex, value);
     }
 
+    @Override
+    @SuppressWarnings("cast")
+    public Integer realmGet$starStatus() {
+        proxyState.getRealm$realm().checkIfValid();
+        if (proxyState.getRow$realm().isNull(columnInfo.starStatusIndex)) {
+            return null;
+        }
+        return (int) proxyState.getRow$realm().getLong(columnInfo.starStatusIndex);
+    }
+
+    @Override
+    public void realmSet$starStatus(Integer value) {
+        if (proxyState.isUnderConstruction()) {
+            if (!proxyState.getAcceptDefaultValue$realm()) {
+                return;
+            }
+            final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.starStatusIndex, row.getIndex(), true);
+                return;
+            }
+            row.getTable().setLong(columnInfo.starStatusIndex, row.getIndex(), value, true);
+            return;
+        }
+
+        proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.starStatusIndex);
+            return;
+        }
+        proxyState.getRow$realm().setLong(columnInfo.starStatusIndex, value);
+    }
+
     private static OsObjectSchemaInfo createExpectedObjectSchemaInfo() {
-        OsObjectSchemaInfo.Builder builder = new OsObjectSchemaInfo.Builder("DataItem", 7, 0);
+        OsObjectSchemaInfo.Builder builder = new OsObjectSchemaInfo.Builder("DataItem", 8, 0);
         builder.addPersistedProperty("id", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
         builder.addPersistedProperty("itemName", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
         builder.addPersistedProperty("category", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
@@ -317,6 +354,7 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
         builder.addPersistedProperty("sort", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
         builder.addPersistedProperty("price", RealmFieldType.DOUBLE, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
         builder.addPersistedProperty("image", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
+        builder.addPersistedProperty("starStatus", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
         return builder.build();
     }
 
@@ -392,6 +430,13 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
                 objProxy.realmSet$image((String) json.getString("image"));
             }
         }
+        if (json.has("starStatus")) {
+            if (json.isNull("starStatus")) {
+                objProxy.realmSet$starStatus(null);
+            } else {
+                objProxy.realmSet$starStatus((int) json.getInt("starStatus"));
+            }
+        }
         return obj;
     }
 
@@ -454,6 +499,13 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
                     reader.skipValue();
                     objProxy.realmSet$image(null);
                 }
+            } else if (name.equals("starStatus")) {
+                if (reader.peek() != JsonToken.NULL) {
+                    objProxy.realmSet$starStatus((int) reader.nextInt());
+                } else {
+                    reader.skipValue();
+                    objProxy.realmSet$starStatus(null);
+                }
             } else {
                 reader.skipValue();
             }
@@ -501,6 +553,7 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
         realmObjectCopy.realmSet$sort(realmObjectSource.realmGet$sort());
         realmObjectCopy.realmSet$price(realmObjectSource.realmGet$price());
         realmObjectCopy.realmSet$image(realmObjectSource.realmGet$image());
+        realmObjectCopy.realmSet$starStatus(realmObjectSource.realmGet$starStatus());
         return realmObject;
     }
 
@@ -534,6 +587,10 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
         String realmGet$image = ((DataItemRealmProxyInterface) object).realmGet$image();
         if (realmGet$image != null) {
             Table.nativeSetString(tableNativePtr, columnInfo.imageIndex, rowIndex, realmGet$image, false);
+        }
+        Number realmGet$starStatus = ((DataItemRealmProxyInterface) object).realmGet$starStatus();
+        if (realmGet$starStatus != null) {
+            Table.nativeSetLong(tableNativePtr, columnInfo.starStatusIndex, rowIndex, realmGet$starStatus.longValue(), false);
         }
         return rowIndex;
     }
@@ -575,6 +632,10 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
             String realmGet$image = ((DataItemRealmProxyInterface) object).realmGet$image();
             if (realmGet$image != null) {
                 Table.nativeSetString(tableNativePtr, columnInfo.imageIndex, rowIndex, realmGet$image, false);
+            }
+            Number realmGet$starStatus = ((DataItemRealmProxyInterface) object).realmGet$starStatus();
+            if (realmGet$starStatus != null) {
+                Table.nativeSetLong(tableNativePtr, columnInfo.starStatusIndex, rowIndex, realmGet$starStatus.longValue(), false);
             }
         }
     }
@@ -619,6 +680,12 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
             Table.nativeSetString(tableNativePtr, columnInfo.imageIndex, rowIndex, realmGet$image, false);
         } else {
             Table.nativeSetNull(tableNativePtr, columnInfo.imageIndex, rowIndex, false);
+        }
+        Number realmGet$starStatus = ((DataItemRealmProxyInterface) object).realmGet$starStatus();
+        if (realmGet$starStatus != null) {
+            Table.nativeSetLong(tableNativePtr, columnInfo.starStatusIndex, rowIndex, realmGet$starStatus.longValue(), false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.starStatusIndex, rowIndex, false);
         }
         return rowIndex;
     }
@@ -671,6 +738,12 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
             } else {
                 Table.nativeSetNull(tableNativePtr, columnInfo.imageIndex, rowIndex, false);
             }
+            Number realmGet$starStatus = ((DataItemRealmProxyInterface) object).realmGet$starStatus();
+            if (realmGet$starStatus != null) {
+                Table.nativeSetLong(tableNativePtr, columnInfo.starStatusIndex, rowIndex, realmGet$starStatus.longValue(), false);
+            } else {
+                Table.nativeSetNull(tableNativePtr, columnInfo.starStatusIndex, rowIndex, false);
+            }
         }
     }
 
@@ -700,6 +773,7 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
         unmanagedCopy.realmSet$sort(realmSource.realmGet$sort());
         unmanagedCopy.realmSet$price(realmSource.realmGet$price());
         unmanagedCopy.realmSet$image(realmSource.realmGet$image());
+        unmanagedCopy.realmSet$starStatus(realmSource.realmGet$starStatus());
 
         return unmanagedObject;
     }
@@ -737,6 +811,10 @@ public class DataItemRealmProxy extends com.example.android.restful.model.DataIt
         stringBuilder.append(",");
         stringBuilder.append("{image:");
         stringBuilder.append(realmGet$image() != null ? realmGet$image() : "null");
+        stringBuilder.append("}");
+        stringBuilder.append(",");
+        stringBuilder.append("{starStatus:");
+        stringBuilder.append(realmGet$starStatus() != null ? realmGet$starStatus() : "null");
         stringBuilder.append("}");
         stringBuilder.append("]");
         return stringBuilder.toString();

@@ -16,4 +16,6 @@ public interface DataItemRealmProxyInterface {
     public void realmSet$price(double value);
     public String realmGet$image();
     public void realmSet$image(String value);
+    public Integer realmGet$starStatus();
+    public void realmSet$starStatus(Integer value);
 }
